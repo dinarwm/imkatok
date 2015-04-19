@@ -1,0 +1,15 @@
+Menu sebelum login :
+Home
+Kalender kehamilan
+Berita
+Forum
+Galeri
+
+Menu setelah login :
+Home
+Kalender kehamilan
+Berita
+Forum
+Galeri
+
+Kalo belum login, gabisa komen / ngepost di forum
