@@ -230,11 +230,55 @@ header .sub-menu {
     </div><!-- end #gallery-outer-wrap -->
 
 </section><!-- END content-container -->
-
-    
-
-
-
 </div><!-- end .tt-wide-layout -->
+<footer>
+    <div class="center-wrap tt-relative">
+        <div class="footer-content clearfix">
+                            <div class="footer-default-one">
+                    <div class="sidebar-widget widget_text">			<div class="textwidget"><p><img src="images/logo-white.png" alt="TrueThemes - Responsive Wordpress"></p>
+</div>
+		</div>                </div><!-- end .footer-default-one -->
+
+		<div class="footer-default-two">
+                    <div class="sidebar-widget widget_text">			<div class="textwidget">
+<p>Pregnancy Care adalah website yang dibuat untuk memberikan pengetahuan dasar seputar kehamilan sehingga ibu hamil lebih mengerti kondisi kehamilannya setiap saat</p>
+</div>
+		</div>                </div><!-- end .footer-default-one -->
+
+                
+                <div class="footer-default-three">
+                    <div class="sidebar-widget social_widget"><p class="foot-heading">Kunjungi Halaman Kami Yang Lain</p>
+
+
+
+<ul class="social_icons">
+<li><a href="http://www.twitter.com/truethemes" class="twitter" onclick="window.open(this.href);return false;">Twitter</a></li>
+<li><a href="http://www.facebook.com/truethemes" class="facebook" onclick="window.open(this.href);return false;">Facebook</a></li>
+</ul>
+
+        </div>                </div><!-- end .footer-default-three -->
+                    </div><!-- end .footer-content -->
+    </div><!-- end .center-wrap -->
+
+    <div class="footer-copyright clearfix">
+        <div class="center-wrap clearfix">
+    	    <div class="foot-copy">
+    	        <p>Copyright © 2015 Pregnancy Care.</p>
+    	    </div><!-- end .foot-copy -->
+
+    	                    <a href="#" id="scroll_to_top" class="link-top">Kembali ke bagian atas</a>
+            
+                            <ul class="footer-nav">
+                    <li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="http://themes.truethemes.net/Sterling/pages">Beranda</a></li>
+<li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="http://themes.truethemes.net/Sterling/features">Kalender Kehamilan</a></li>
+<li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="http://themes.truethemes.net/Sterling/styles">Berita</a></li>
+<li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="http://themes.truethemes.net/Sterling/shortcodes">Galeri</a></li>
+                </ul>
+                    </div><!-- end .center-wrap -->
+    </div><!-- end .footer-copyright -->
+
+    <div class="shadow top"></div>
+    <div class="tt-overlay"></div>
+</footer>
 </body>
 </html>
