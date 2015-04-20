@@ -194,13 +194,6 @@ header .sub-menu {
     <section class="small_banner">
             <div class="center-wrap ">
         <p class="page-banner-heading">Forum Diskusi</p>
-
-                    <div id="banner-search">
-                <form method="get" class="searchform" action="http://themes.truethemes.net/Sterling/">
-    <fieldset>
-        <input type="text" name="s" class="s" value="Search..." onfocus="if(this.value=='Search...')this.value='';" onblur="if(this.value=='')this.value='Search...';" />
-    </fieldset>
-</form>            </div><!-- end #banner-search -->
         
                     <div class="breadcrumbs"><a href="http://themes.truethemes.net/Sterling">Home</a>&rarr; <span class='current_crumb'>Forum Diskusi </span></div><!-- end .breadcrumbs -->
             </div><!-- end .center-wrap -->
