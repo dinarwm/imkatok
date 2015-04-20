@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Registrasi</title>
+<title>Homepage &#8211; jQuery + Sidebar &laquo;  Sterling &#8211; Responsive Wordpress Theme</title>
 <link rel="pingback" href="http://themes.truethemes.net/Sterling/xmlrpc.php" />
 <link rel="alternate" type="application/rss+xml" title="" href="http://themes.truethemes.net/Sterling/feed" />
 
@@ -128,7 +128,7 @@ header {padding:32px 0;}
 
 <style type="text/css">body, html {background-color:# !important;}</style>
 </head>
-<body class="page page-id-288 page-template page-template-page-template-home-jquery-sidebar page-template-page-template-home-jquery-sidebar-php">
+<body class="error404">
 <div id="tt-wide-layout" >
 <div id="tt-header-wrap" >
 
@@ -174,91 +174,38 @@ header {padding:32px 0;}
         </div><!-- end .center-wrap -->
     </header>
 </div><!-- END #tt-header-wrap -->
-<section id="content-container" class="clearfix">
-<div id="main-wrap" class="clearfix">
-<div class="column-clear">&nbsp;</div>
-<h3 style="text-align: center;">Registrasi</h3>
-<div class="column-clear">&nbsp;</div>
-<div class="tt-contentbox">
-<div class="tt-contentbox-title tt-cb-title-cool-blue"><span>Cek kehamilan Anda sekarang! Daftarkan diri Anda</span></div>
-<div class="tt-contentbox-content tt-content-style-teal-2">
-	<p>Pastikan kesehatan janin Anda di sini</p>	
-	<form action="hehe.php" method="post">
-		<table>
-		<tr> 
-			<td><label> Nama lengkap </label></td>
-			<td><input type="text" name="nama" id="nama"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> E-mail</label></td>
-			<td><input type="text" name="email" id="email"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Password </label></td>
-			<td><input type="password" name="password" id="password"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Konfirmasi Password </label></td>
-			<td><input type="password" name="password2" id="password2"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Alamat </label></td>
-			<td><input type="text" name="alamat" id="alamat"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Umur Kehamilan </label></td>
-			<td><input type="number" name="umur" id="umur"/> Bulan</td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br />
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td></td>
-			<td><a href="#" class="large blue tt-button" target="www.google.com"> Kirim </a></td>
-		</tr>
 
-		</table>
-	</form>
-</div>
-</div>
-<div class="column-clear">&nbsp;</div>
-<div class="column-clear">&nbsp;</div>
-<!-- end #main-wrap -->
+    <section class="small_banner">
+            <div class="center-wrap ">
+        <p class="page-banner-heading">Halaman tidak ditemukan</p>
+
+                    
+        
+        
+                    
+            </div><!-- end .center-wrap -->
+    <div class="shadow top"></div>
+    <div class="shadow bottom"></div>
+    <div class="tt-overlay"></div>
+    </section>
+
+<section id="content-container" class="clearfix">
+    <div id="main-wrap" class="clearfix">
+        <div class="page-not-found clearfix">
+            <p><strong>Maaf, halaman yang anda cari tidak ada</strong></p>
+
+<p>Berikut ini beberapa halaman yang dapat anda kunjungi :</p>
+
+<ul>
+<li><a href="http://themes.truethemes.net/Sterling">Beranda</a></li>
+<li><a href="http://themes.truethemes.net/Sterling/pages/sitemap">Kalender kehamilan</a></li>
+<li><a href="http://themes.truethemes.net/Sterling/pages/contact">Berita</a></li>
+</ul>        </div><!-- end .page-not-found -->
+    </div><!-- end #main-wrap -->
 
 </section><!-- END content-container -->
+
+    
 
 <footer>
     <div class="center-wrap tt-relative">
@@ -394,8 +341,8 @@ header {padding:32px 0;}
 
 </div><!--end of container-->
 
-	<div class="toggle-button close" style="display:none"></div>
-    <!-- <div class="toggle-button open"><i class="fa fa-cog fa-spin"></i></div> -->
+	<!-- <div class="toggle-button close" style="display:none"></div>
+    <div class="toggle-button open"><i class="fa fa-cog fa-spin"></i></div> -->
 </div><!-- END styling preview -->
 <link rel='stylesheet' id='style-switcher-css'  href='http://themes.truethemes.net/Sterling/wp-content/plugins/sterling-style-switcher/style-switcher.css?ver=1.2' type='text/css' media='screen' />
 <script type='text/javascript' src='http://themes.truethemes.net/Sterling/wp-includes/js/comment-reply.js?ver=4.1.1'></script>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Registrasi</title>
+<title>Homepage &#8211; jQuery + Sidebar &laquo;  Sterling &#8211; Responsive Wordpress Theme</title>
 <link rel="pingback" href="http://themes.truethemes.net/Sterling/xmlrpc.php" />
 <link rel="alternate" type="application/rss+xml" title="" href="http://themes.truethemes.net/Sterling/feed" />
 
@@ -163,100 +163,43 @@ header {padding:32px 0;}
             </div><!-- end .companyIdentity -->
             <nav>
                 <ul id="menu-main-nav">
-                    <li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="home.php">Home</a></li>
-                    <!-- <li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="infografik.php">Infografik</a></li> -->
-                    <li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="kalender_kehamilan.php">Kalender Kehamilan</a></li>
-                    <li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="berita.php">Berita</a></li>
-                    <li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="galeri.php">Galeri</a></li>
-                    <!-- <li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="forum.php">Forum</a></li> -->
+<li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="http://themes.truethemes.net/Sterling/pages">Beranda</a></li>
+    <li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1103"><a href="http://themes.truethemes.net/Sterling/features">Infografik</a></li>
+                        
+    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="http://themes.truethemes.net/Sterling/features">Kalender Kehamilan</a></li>
+    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="http://themes.truethemes.net/Sterling/styles">Berita</a></li>
+    <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="http://themes.truethemes.net/Sterling/shortcodes">Galeri</a></li>
+    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="http://themes.truethemes.net/Sterling/styles">Forum</a></li>
                 </ul>
             </nav>
         </div><!-- end .center-wrap -->
     </header>
 </div><!-- END #tt-header-wrap -->
-<section id="content-container" class="clearfix">
-<div id="main-wrap" class="clearfix">
-<div class="column-clear">&nbsp;</div>
-<h3 style="text-align: center;">Registrasi</h3>
-<div class="column-clear">&nbsp;</div>
-<div class="tt-contentbox">
-<div class="tt-contentbox-title tt-cb-title-cool-blue"><span>Cek kehamilan Anda sekarang! Daftarkan diri Anda</span></div>
-<div class="tt-contentbox-content tt-content-style-teal-2">
-	<p>Pastikan kesehatan janin Anda di sini</p>	
-	<form action="hehe.php" method="post">
-		<table>
-		<tr> 
-			<td><label> Nama lengkap </label></td>
-			<td><input type="text" name="nama" id="nama"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> E-mail</label></td>
-			<td><input type="text" name="email" id="email"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Password </label></td>
-			<td><input type="password" name="password" id="password"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Konfirmasi Password </label></td>
-			<td><input type="password" name="password2" id="password2"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Alamat </label></td>
-			<td><input type="text" name="alamat" id="alamat"/></td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br /> Mohon diisi dengan benar
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td><label> Umur Kehamilan </label></td>
-			<td><input type="number" name="umur" id="umur"/> Bulan</td>
-			<td>
-				<div class="tt-notification error closeable">
-					<p style="font-size:12px;"class="tt-notification error closeable"> <strong>Data kurang lengkap</strong><br />
-					</p>
-				</div>
-			</td>
-		</tr>
-		<tr> 
-			<td></td>
-			<td><a href="#" class="large blue tt-button" target="www.google.com"> Kirim </a></td>
-		</tr>
+<section class="small_banner">
+            <div class="center-wrap ">
+                    <p class="page-banner-heading">Infografik </p>
+        
 
-		</table>
-	</form>
-</div>
-</div>
+        
+        
+                    <div class="breadcrumbs"><a href="http://themes.truethemes.net/Sterling">Beranda</a> &rarr; <a href="http://themes.truethemes.net/Sterling/shortcodes">Infografik</a></span></div><!-- end .breadcrumbs -->
+            </div><!-- end .center-wrap -->
+    <div class="shadow top"></div>
+    <div class="shadow bottom"></div>
+    <div class="tt-overlay"></div>
+    </section>
+<section id="content-container" class="clearfix">    <div id="main-wrap" class="clearfix">
+        <div class="column-clear">&nbsp;</div>
+<h3 style="text-align: center;">Selamat! Anda telah memasuki 5 bulan usia kandungan !</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/janin.jpg" align="center">
 <div class="column-clear">&nbsp;</div>
 <div class="column-clear">&nbsp;</div>
-<!-- end #main-wrap -->
+<p>Keterangan : <br/></p>
+<p>Pada usia kandungan ini, janin mulai bisa mengenali lingkungan sekitarnya. Janin pun mulai merasakan berbagai sensasi. Alis mata dan rambut halus di kulit kepala mulai tumbuh, yang ini bersifat sementara. Dua minggu setelah bayi lahir, rambut-rambut ini akan rontok. Jadwal kegiatan janin relatif teratur. Pada pagi hari hingga menjelang sore hari, janin akan beristirahat. Karena itu pada rentang waktu ini, janin melakukan gerakan yang relatif sedikit. Pada malam hari, janin beraktivitas aktif, sehingga kadang mengganggu kegiatan tidur ibu. Pada usia lima bulan, janin memiliki panjang badan 25 cm. </p>
+<p>Tips dan saran : <br/></p>
+<p>1. Jangan tidur malam-malam <br/> 2. Makan yang bergizi<br/></p>
+<p>Hindari : <br/></p>
+    </div><!-- end #main-wrap -->
 
 </section><!-- END content-container -->
 

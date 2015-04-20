@@ -182,7 +182,7 @@ header {padding:32px 0;}
 <div class="tt-contentbox">
 <div class="tt-contentbox-title tt-cb-title-cool-blue"><span>Cek kehamilan Anda sekarang! Daftarkan diri Anda</span></div>
 <div class="tt-contentbox-content tt-content-style-teal-2">
-	<p>Hamilhamilhamilhamilhamil</p>
+	<p>Pastikan kesehatan janin Anda di sini</p>
 	<form action="hehe.php" method="post">
 		<table>
 		<tr> 
