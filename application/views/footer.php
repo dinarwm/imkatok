@@ -2,7 +2,7 @@
     <div class="center-wrap tt-relative">
         <div class="footer-content clearfix">
                             <div class="footer-default-one">
-                    <div class="sidebar-widget widget_text">			<div class="textwidget"><p><img src="images/logo-white.png" alt="TrueThemes - Responsive Wordpress"></p>
+                    <div class="sidebar-widget widget_text">			<div class="textwidget"><p><img src="<?php echo base_url() ?>images/logo-white.png" alt="TrueThemes - Responsive Wordpress"></p>
 </div>
 		</div>                </div><!-- end .footer-default-one -->
 
