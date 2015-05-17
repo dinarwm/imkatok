@@ -39,6 +39,9 @@
 */
 
 $route['default_controller'] = "home";
+$route['gallery']='gallery';
+$route['kalender_kehamilan']='kalender_kehamilan';
+$route['forum']='forum';
 $route['404_override'] = '';
 
 
