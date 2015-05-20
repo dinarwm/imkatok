@@ -14,6 +14,14 @@ class Forum extends CI_Controller
 		$this->load->view('footer');
 	}
 
+	public function berita()
+	{
+		$data['judul'] = "Forum";
+		$this->load->view('headerUser',$data);
+		$this->load->view('berita');
+		$this->load->view('footer');
+	}
+
 	public function error()
 	{
 		$data['judul'] = "404 Not Found";

@@ -41,8 +41,9 @@
 $route['default_controller'] = 'home';
 $route['gallery']='gallery';
 $route['kalender_kehamilan']='kalender_kehamilan';
-$route['kalender_kehamilan/info_grafik']='kalender_kehamilan/info_grafik';
+$route['info_grafik']='kalender_kehamilan/info_grafik';
 $route['forum']='forum';
+$route['berita']='forum/berita';
 $route['404_override'] = 'home/error';
 $route['apaan']='apaan';
 $route['404_override'] = '';
