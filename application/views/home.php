@@ -8,9 +8,10 @@
             <p><img class="aligncenter size-full wp-image-1059" title="Image - Web Display" src="<?php echo base_url() ?>images/cover.png" alt="Premium WordPress Theme - CMS - TrueThemes" width="960" height="434" /></p>
         </div><!-- end .home-slider-post -->
             <div class="clearfix home-slider-post" id="slider-post-877">
-            <div class="one_half">
+            <!-- Gambar ibu hamil -->
+            <!-- <div class="one_half">
                 <div class="img-frame full-half"><img src="<?php echo base_url() ?>images/pregnan.jpg" alt="" width="445" height="260"/></div>            
-            </div>
+            </div> -->
 
             <div class="one_half">
                 <h2>Pregnancy</h2>
