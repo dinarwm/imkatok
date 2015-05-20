@@ -163,13 +163,13 @@ header {padding:32px 0;}
             </div><!-- end .companyIdentity -->
             <nav>
                 <ul id="menu-main-nav">
-<li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="http://themes.truethemes.net/Sterling/pages">Beranda</a></li>
-    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="http://themes.truethemes.net/Sterling/features">Infografik</a></li>
+<li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="<?php echo base_url();?>home">Beranda</a></li>
+    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>infografik">Infografik</a></li>
                         
-    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="http://themes.truethemes.net/Sterling/features">Kalender Kehamilan</a></li>
-    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="http://themes.truethemes.net/Sterling/styles">Berita</a></li>
-    <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="http://themes.truethemes.net/Sterling/shortcodes">Galeri</a></li>
-    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="http://themes.truethemes.net/Sterling/styles">Forum</a></li>
+    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>kalender_kehamilan">Kalender Kehamilan</a></li>
+    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>berita">Berita</a></li>
+    <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="<?php echo base_url();?>galeri">Galeri</a></li>
+    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>forum">Forum</a></li>
                 </ul>
             </nav>
         </div><!-- end .center-wrap -->
