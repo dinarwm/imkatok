@@ -8,7 +8,7 @@
 <div class="tt-contentbox-title tt-cb-title-cool-blue"><span>Cek kehamilan Anda sekarang!</span></div>
 <div class="tt-contentbox-content tt-content-style-teal-2">
 	<label><b>Belum memiliki akun? Klik menu Daftar, atau klik <a href="<?php echo base_url() ?>auth/register">disini</a></b></label>
-	<form action="hehe.php" method="post">
+	<form action="<?php echo base_url() ?>auth/doLogin" method="post">
 		<table>
 		<tr> 
 			<td><label>E-mail</label></td>

@@ -22,9 +22,11 @@ class Auth extends CI_Controller
 		}
 		else
 		{
+			$data['email'] = NULL;
+			$data['password'] = NULL;
 			$data['judul'] = "Login";
 			$this->load->view('headerHome', $data);
-			$this->load->view('login');
+			$this->load->view('login', $data);
 			$this->load->view('footer');
 		}
 	}
@@ -35,7 +37,12 @@ class Auth extends CI_Controller
 		$password = $this->input->post('password');
 			
 		$this->load->model('akun');
-			
+		
+		if($email == NULL)
+		{
+
+		}
+
 		$auth = $this->akun->login($email, $password);
 			
 		if($auth)
