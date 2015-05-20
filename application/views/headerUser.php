@@ -168,7 +168,7 @@ header {padding:32px 0;}
                         
     <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>kalender_kehamilan">Kalender Kehamilan</a></li>
     <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>berita">Berita</a></li>
-    <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="<?php echo base_url();?>galeri">Galeri</a></li>
+    <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="<?php echo base_url();?>gallery">Galeri</a></li>
     <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>forum">Forum</a></li>
                 </ul>
             </nav>
