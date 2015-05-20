@@ -147,7 +147,7 @@ header {padding:32px 0;}
                 <div class="sidebar-widget social_widget">
 					<ul>
 						<li><a href="http://www.facebook.com/truethemes" onclick="window.open(this.href);return false;">Daftar</a></li>
-						<li><a href="http://www.facebook.com/truethemes" onclick="window.open(this.href);return false;">Masuk</a></li>
+						<li><a href="<?php echo base_url() ?>auth" onclick="window.open(this.href);return false;">Masuk</a></li>
 					</ul>
         		</div>            
         	</div><!-- end .top-toolbar-right -->

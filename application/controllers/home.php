@@ -1,25 +1,41 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+<?php
+	
 class Home extends CI_Controller
-{	
-	function __construct() {
+{
+	function __construct()
+	{
 		parent::__construct();
+		if($this->session->userdata('login') == TRUE)
+		{
+			redirect('auth');
+		}
 	}
 
-	public function index()
+	function index()
 	{
-		$data['judul'] = "Beranda";
-		$this->load->view('headerHome',$data);
-		$this->load->view('home');
+		$data['judul'] = "Home";
+		$data['forum'] = "hide";
+		$this->load->view('headerHome', $data);
+		$this->load->view('home', $data);
 		$this->load->view('footer');
 	}
 
-	public function error()
+	function error()
 	{
-		$data['judul'] = "404 Not Found";
-		$this->load->view('header',$data);
-		$this->load->view('not-found-404');
+		$data['judul'] = "Error!";
+		$this->load->view('admin/adminHeader', $data);
+		$this->load->view('admin/adminHome');
+		$this->load->view('admin/adminFooter');
+	}
+
+	function user()
+	{
+		$data['judul'] = "Home";
+		$data['forum'] = "show";
+		$this->load->view('headerUser', $data);
+		$this->load->view('home', $data);
 		$this->load->view('footer');
 	}
 }
-?>
+
+/* End of file admin.php */

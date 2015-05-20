@@ -17,34 +17,37 @@ class Auth extends CI_Controller
 			}
 			else
 			{
-				redirect('user');
+				redirect('home/user');
 			}
 		}
 		else
 		{
+			$data['judul'] = "Login";
+			$this->load->view('headerHome', $data);
 			$this->load->view('login');
+			$this->load->view('footer');
 		}
 	}
 	
 	function doLogin()
 	{
-		$username = $this->input->post('email');
+		$email = $this->input->post('email');
 		$password = $this->input->post('password');
 			
 		$this->load->model('akun');
 			
-		$auth = $this->akun->login($username, $password);
+		$auth = $this->akun->login($email, $password);
 			
 		if($auth)
 		{
-			$data = array('username' => $username, 'login' => TRUE);
+			$data = array('email' => $email, 'login' => TRUE);
 			$this->session->set_userdata($data);
 		}
 		else
 		{
-			$this->session->set_flashdata('pesan', 'Username atau password salah!');
+			$this->session->set_flashdata('pesan', 'Email atau password salah!');
 		}
-		redirect('admin');
+		redirect('auth');
 	}
 	
 	function doLogout()

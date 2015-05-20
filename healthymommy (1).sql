@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 20, 2015 at 03:55 PM
+-- Generation Time: May 20, 2015 at 04:46 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -99,7 +99,7 @@ INSERT INTO `galeri` (`id_foto`, `foto`, `judul_foto`, `caption`) VALUES
 CREATE TABLE IF NOT EXISTS `infografik` (
   `id_info` int(11) NOT NULL,
   `umur` int(11) DEFAULT NULL,
-  `gambar` longblob,
+  `gambar` varchar(255) DEFAULT NULL,
   `keterangan` longtext
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
