@@ -23,6 +23,20 @@ class Akun extends CI_Model
 			return FALSE;
 		}
 	}
+
+	public function register($nama, $email, $password, $alamat, $umur_kehamilan)
+	{
+		$data = array(
+		   'nama' => $nama,
+		   'email' => $email,
+		   'password' => $password,
+		   'alamat' => $alamat,
+		   'umur_kehamilan' => $umur_kehamilan,
+		   'jabatan' => 'user'
+		);
+
+		$this->db->insert('akun', $data); 
+	}
 	
 }
 

@@ -12,34 +12,34 @@
 <link rel="alternate" type="application/rss+xml" title="" href="http://themes.truethemes.net/Sterling/homepage-jquery-sidebar/feed" />
 <link rel='stylesheet' id='mailchimpSF_main_css-css'  href='css/fix/Sterling.css' type='text/css' media='all' />
 
-<link rel='stylesheet' id='layerslider-css'  href='css/fix/layerslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='<?php echo base_url();?>css/fix/layerslider.css' type='text/css' media='all' />
 <link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900|Open+Sans:300|Indie+Flower:regular|Oswald:300,regular,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='css/fix/settings.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='<?php echo base_url();?>css/fix/settings.css' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'>
 .tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}
 </style>
-<link rel='stylesheet' id='woocommerce-layout-css'  href='css/fix/woocommerce-layout.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='css/fix/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='css/fix/woocommerce.css' type='text/css' media='all' />
-<script type='text/javascript' src='js/fix/jquery.js'></script>
-<script type='text/javascript' src='js/fix/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='js/fix/scrollTo.js'></script>
-<script type='text/javascript' src='js/fix/jquery.form.min.js'></script>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='<?php echo base_url();?>css/fix/woocommerce-layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='<?php echo base_url();?>css/fix/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='<?php echo base_url();?>css/fix/woocommerce.css' type='text/css' media='all' />
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/jquery.js'></script>
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/scrollTo.js'></script>
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/jquery.form.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var mailchimpSF = {"ajax_url":"http:\/\/themes.truethemes.net\/Sterling\/"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='js/fix/mailchimp.js'></script>
-<script type='text/javascript' src='js/fix/swfobject.js'></script>
-<script type='text/javascript' src='js/fix/jquery.cu3er.js'></script>
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/mailchimp.js'></script>
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/swfobject.js'></script>
+<script type='text/javascript' src='<?php echo base_url();?>js/fix/jquery.cu3er.js'></script>
 <link rel='canonical' href='home.php' />
 <link rel='shortlink' href='home.php' />
 <link href="http://themes.truethemes.net/Sterling/wp-content/themes/Sterling/style.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/fix/primary-blue.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/fix/_mobile.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/fix/_font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/fix/_woocommerce.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo base_url();?>css/fix/primary-blue.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo base_url();?>css/fix/_mobile.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo base_url();?>css/fix/_font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo base_url();?>css/fix/_woocommerce.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="shortcut icon" href="images/mommy.ico"/>
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
 

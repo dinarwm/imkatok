@@ -53,6 +53,25 @@ class Home extends CI_Controller
 			redirect("home");
 		}
 	}
+	function register()
+	{
+		if($this->session->userdata('login') == TRUE)
+		{
+			$data['judul'] = "Home";
+			$data['forum'] = "show";
+			$this->load->view('headerUser', $data);
+			$this->load->view('home', $data);
+			$this->load->view('footer');
+		}
+		else
+		{
+			$data['judul'] = "Register";
+			$this->load->view('headerHome',$data);
+			$this->load->view('registrasi');
+			$this->load->view('footer');
+		}
+
+	}
 }
 
 /* End of file admin.php */

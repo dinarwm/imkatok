@@ -62,6 +62,30 @@ class Auth extends CI_Controller
 		$this->session->sess_destroy();
 		redirect('auth');
 	}
+
+	function registrasi()
+	{
+		$this->load->model('akun');
+		$nama = $this->input->post('nama');
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+		$password2 = $this->input->post('password2');
+		$alamat = $this->input->post('alamat');
+		$umur_kehamilan = $this->input->post('umur');
+
+		$error['notmatch'] = 'Password tidak sama';
+		if ($password!= $password2)
+		 {
+		     redirect('auth/registrasi',$error);
+		 }
+		else {
+				$this->akun->register($nama, $email, $password, $alamat, $umur_kehamilan);
+				$data['judul'] = "Register";
+				$this->load->view('headerHome',$data);
+				$this->load->view('registrasi');
+				$this->load->view('footer');
+			}
+	}
 }
 
 /* End of file auth.php */
