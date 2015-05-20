@@ -40,7 +40,7 @@ class Auth extends CI_Controller
 		
 		if($email == NULL)
 		{
-
+			
 		}
 
 		$auth = $this->akun->login($email, $password);
