@@ -14,6 +14,14 @@ class Kalender_kehamilan extends CI_Controller
 		$this->load->view('footer');
 	}
 
+	public function info_grafik()
+	{
+		$data['judul'] = "Info Grafik";
+		$this->load->view('headerUser',$data);
+		$this->load->view('info_grafik');
+		$this->load->view('footer');
+	}
+
 	public function error()
 	{
 		$data['judul'] = "404 Not Found";
