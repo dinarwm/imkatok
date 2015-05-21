@@ -6,7 +6,7 @@
     border-radius: 50%;
     background: lightblue;
 }
-.arc {
+.arc {    
     overflow: hidden;
     position: absolute;
     top: -1em; right: 50%; bottom: 50%; left: -1em;
@@ -177,12 +177,13 @@
 
     <div id="gallery-outer-wrap" class="clearfix">
         <div id="main-wrap" class="clearfix">
-            <div id="iso-wrap" class="clearfix">                
-                        <div class='circle'>
-                            <div class='arc'></div>
-                            <div class='arc1'></div>
-                            <div class='arc2'></div>
-                            <div class='arc3'></div>
+            <div id="iso-wrap" class="clearfix">
+                                              
+                        <div class='circle'>                            
+                            <a href='http://bidanku.com/images/perkembangan-janin-satu-bulan.JPG' class='arc' data-gal="prettyPhoto"></a>
+                            <a href='http://bidanku.com/images/perkembangan-janin-2-bulan.JPG' class='arc1' data-gal="prettyPhoto"></a>
+                            <a href='http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_and_medical_reference/womens_health/Pregnancy_Your_Babys_Growth_and_Development_Months_1_to_3_-_12_Weeks.jpg' class='arc2' data-gal="prettyPhoto"></a>
+                            <a href='http://bidanku.com/images/perkembangan-janin-4-bulan.JPG class=' class='arc3' data-gal="prettyPhoto"></a>
                             <div class='arc4'></div>
                             <div class='arc5'></div>
                             <div class='arc6'></div>
