@@ -39,7 +39,7 @@ Menyimak penjelasan tentang perkembangan janin 5 bulan dalam kandungan diatas, t
                             <p class="post-tags">Tags: <a href="http://themes.truethemes.net/Sterling/tag/app" rel="tag">app</a>, <a href="http://themes.truethemes.net/Sterling/tag/business-2" rel="tag">business</a>, <a href="http://themes.truethemes.net/Sterling/tag/css3" rel="tag">css3</a>, <a href="http://themes.truethemes.net/Sterling/tag/envato" rel="tag">envato</a>, <a href="http://themes.truethemes.net/Sterling/tag/html5" rel="tag">html5</a>, <a href="http://themes.truethemes.net/Sterling/tag/premium" rel="tag">premium</a>, <a href="http://themes.truethemes.net/Sterling/tag/responsive" rel="tag">responsive</a>, <a href="http://themes.truethemes.net/Sterling/tag/software" rel="tag">software</a>, <a href="http://themes.truethemes.net/Sterling/tag/templates-2" rel="tag">templates</a>, <a href="http://themes.truethemes.net/Sterling/tag/themes-2" rel="tag">themes</a>, <a href="http://themes.truethemes.net/Sterling/tag/truethemes" rel="tag">truethemes</a>, <a href="http://themes.truethemes.net/Sterling/tag/wordpress-2" rel="tag">wordpress</a></p>
                             
                                                     <p class="post-categories"><strong>Posted in:</strong> 
-							<a href="http://themes.truethemes.net/Sterling/category/responsive-wordpress" >Responsive Wordpress</a></p>
+							<a href="http://themes.truethemes.net/Sterling/category/responsive-wordpress" >Kesehatan</a></p>
 						                            
                             <a class="post-leave-comment"href="http://themes.truethemes.net/Sterling/truethemes-premium-wordpress#respond">Leave a Comment (7) &rarr;</a>
                         </div><!-- end .post-details -->
@@ -51,7 +51,7 @@ Menyimak penjelasan tentang perkembangan janin 5 bulan dalam kandungan diatas, t
 
             
             <div class="wp-pagenavi">
-<span class="pages">Page 1 of 2</span>&nbsp;<span class="current">1</span><a href="http://themes.truethemes.net/Sterling/blog/page/2" class="page" title="2">2</a></div>
+<span class="pages">Page 1</span>&nbsp;<span class="current">1</span></div>
         </div><!-- end .page_content -->
 
         
