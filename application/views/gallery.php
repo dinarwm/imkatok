@@ -30,11 +30,11 @@
             <div id="iso-wrap" class="clearfix iso-space">
                         <div data-id="id-4" class="one_third term-7 ">
                             <div class="img-frame full-third">
-                                                                    <div class="lightbox-zoom">
-                                        <a class="hover-item" data-gal="prettyPhoto" href="<?php echo base_url() ?>images/galeri/titi_kamal.jpg" title="">
-                                            <img src="<?php echo base_url() ?>images/galeri/titi_kamal.jpg" alt="" width="280" height="179" />
+                                        <div class="lightbox-zoom">
+                                        <a class="hover-item" data-gal="prettyPhoto" href="http://us.images.detik.com/content/2013/09/12/230/tikamdlm.jpg" title="">
+                                            <img src="http://themes.truethemes.net/Sterling/wp-content/themes/Sterling/framework/extended/timthumb/timthumb.php?src=http://us.images.detik.com/content/2013/09/12/230/tikamdlm.jpg&#038;h=179&#038;w=280" alt="" width="280" height="179" />
                                         </a>
-                                                                </div><!-- end .lightbox-linked or .lightbox-zoom -->
+                                        </div><!-- end .lightbox-linked or .lightbox-zoom -->
                             </div><!-- end .img-frame -->
 
                                                         

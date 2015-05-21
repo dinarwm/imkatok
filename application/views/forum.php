@@ -16,9 +16,7 @@
             <ul>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://themes.truethemes.net/Sterling/">Tri semester 1</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1069"><a href="http://themes.truethemes.net/Sterling/pages">Tri semester 2</a>
-<ul class="sub-menu">
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1708"><a href="http://themes.truethemes.net/Sterling/homepage-3d-cu3er-slider">Asiku masih sedikit</a></li>
-</ul>
+
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://themes.truethemes.net/Sterling/">Tri semester 3</a></li>
 
 </ul>
