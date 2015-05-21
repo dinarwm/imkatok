@@ -9,17 +9,16 @@ class Gallery extends CI_Controller
 	public function index()
 	{
 		$data['judul'] = "Gallery";
-		$this->load->view('headerUser',$data);
+		if($this->session->userdata('login') != TRUE)
+		{
+			$this->load->view('headerHome', $data);
+		}
+		else
+		{
+			$this->load->view('headerUser', $data);
+		}
 		$this->load->view('gallery');
-		$this->load->view('footer');
-	}
-
-	public function error()
-	{
-		$data['judul'] = "404 Not Found";
-		$this->load->view('header',$data);
-		$this->load->view('not-found-404');
-		$this->load->view('footer');
+		$this->load->view('footer');		
 	}
 }
 ?>

@@ -78,12 +78,14 @@ class Auth extends CI_Controller
 		 {
 		     redirect('auth/registrasi',$error);
 		 }
-		else {
+			else {
+				$this->session->set_userdata($data);
 				$this->akun->register($nama, $email, $password, $alamat, $umur_kehamilan);
-				$data['judul'] = "Register";
-				$this->load->view('headerHome',$data);
-				$this->load->view('registrasi');
-				$this->load->view('footer');
+
+				$data = array('email' => $email, 'login' => TRUE);
+				
+				$this->load->library('../controllers/home');
+				$this->home->user();
 			}
 	}
 }

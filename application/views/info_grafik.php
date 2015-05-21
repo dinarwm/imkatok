@@ -13,8 +13,16 @@
     </section>
 <section id="content-container" class="clearfix">    <div id="main-wrap" class="clearfix">
         <div class="column-clear">&nbsp;</div>
+<<<<<<< HEAD
+        <?php foreach ( $infografik as $key ) {
+            # code...?>
+        
+<h3 style="text-align: center;">Selamat! Anda telah memasuki <?php echo $key->umur ?> bulan usia kandungan !</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/janin.jpg" align="center">
+=======
 <h3 style="text-align: center;">Selamat! Anda telah memasuki 5 bulan usia kandungan !</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="<?php echo base_url() ?>images/janin.jpg" align="center">
+>>>>>>> be06344465ade5a129c82b22f5bb863b7a0c4834
 <div class="column-clear">&nbsp;</div>
 <div class="column-clear">&nbsp;</div>
 <p>Keterangan : <br/></p>
@@ -22,8 +30,8 @@
 <p>Tips dan saran : <br/></p>
 <p>1. Jangan tidur malam-malam <br/> 2. Makan yang bergizi<br/></p>
 <p>Hindari : <br/></p>
-    </div><!-- end #main-wrap -->
-
+    </div><!-- end #main-wrap --><?php
+} ?>
 </section><!-- END content-container -->
 
 <footer>
