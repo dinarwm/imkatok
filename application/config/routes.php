@@ -45,8 +45,6 @@ $route['info_grafik']='kalender_kehamilan/info_grafik';
 $route['forum']='forum';
 $route['berita']='forum/berita';
 $route['404_override'] = 'home/error';
-$route['apaan']='apaan';
-$route['404_override'] = '';
 
 
 /* End of file routes.php */
