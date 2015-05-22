@@ -158,7 +158,7 @@ header {padding:32px 0;}
     <header >
         <div class="center-wrap">
             <div class="companyIdentity" style="height:40px">
-            	<a href="http://themes.truethemes.net/Sterling"><img src="images/aa.png" alt=""/></a>
+            	<a href="http://themes.truethemes.net/Sterling"><img src="<?php echo base_url() ?>images/aa.png" alt=""/></a>
             </div><!-- end .companyIdentity -->
             <nav>
                 <ul id="menu-main-nav">

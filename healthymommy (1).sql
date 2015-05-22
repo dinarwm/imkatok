@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 20, 2015 at 04:46 PM
+-- Generation Time: May 21, 2015 at 04:37 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -56,6 +56,13 @@ CREATE TABLE IF NOT EXISTS `berita` (
   `foto_berita` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `berita`
+--
+
+INSERT INTO `berita` (`id_berita`, `judul_berita`, `isi_berita`, `foto_berita`) VALUES
+(1, 'Pengertian Kehamilan Ektopik Terganggu dan Pembahasan Lengkap\r\n\r\nSumber: http://www.ibu-hamil.web.id/2015/02/kehamilan-ektopik-terganggu-pdf.html\r\nDisalin dari Ibu-Hamil.web.id, Blog Ibu Hamil Indonesia.', 'Banyak wanita yang masih belum begitu memahami apa sebetulnya kehamilan ektopik. Padahal risiko penyakit mematikan ini bisa mengancam mereka dengen gejala yang tanpa di duga-duga. Data Kementerian Kesehatan Amerika Serikat misalnya, menunjukan jika 1 dari 50 wanita bisa mengidap kelainan kehamilan yang satu ini. tentu persentase yang cukup besar bukan? Nah, menyadari hal tersebut, ibu-hamil.web.id berinisiatif untuk membuat pembahasan lengkap seputar pengertian, gejala, penyebab, cara mengobati, dan hal penting lainnya yang terkait dengan kehamilan ektopik. Silakan kunjungi masing-masing link di atas untuk informasi lebih lanjut.', 'images/berita/kehamilan ektopik terganggu.jpg');
+
 -- --------------------------------------------------------
 
 --
@@ -102,6 +109,13 @@ CREATE TABLE IF NOT EXISTS `infografik` (
   `gambar` varchar(255) DEFAULT NULL,
   `keterangan` longtext
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `infografik`
+--
+
+INSERT INTO `infografik` (`id_info`, `umur`, `gambar`, `keterangan`) VALUES
+(1, 2, 'images', 'adasdasdasdasdsad');
 
 -- --------------------------------------------------------
 
