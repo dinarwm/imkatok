@@ -183,8 +183,8 @@
                             <a href='http://bidanku.com/images/perkembangan-janin-satu-bulan.JPG' class='arc' data-gal="prettyPhoto"></a>
                             <a href='http://bidanku.com/images/perkembangan-janin-2-bulan.JPG' class='arc1' data-gal="prettyPhoto"></a>
                             <a href='http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_and_medical_reference/womens_health/Pregnancy_Your_Babys_Growth_and_Development_Months_1_to_3_-_12_Weeks.jpg' class='arc2' data-gal="prettyPhoto"></a>
-                            <a href='http://bidanku.com/images/perkembangan-janin-4-bulan.JPG class=' class='arc3' data-gal="prettyPhoto"></a>
-                            <div class='arc4'></div>
+                            <a href='http://bidanku.com/images/perkembangan-janin-4-bulan.JPG' class='arc3' data-gal="prettyPhoto"></a>
+                            <a href='http://1.bp.blogspot.com/-3VRGisEmQgo/VMtc0hllxTI/AAAAAAAABmE/nPfekwx4mtc/s1600/gambar%2Btahapan%2Bperkembangan%2Bjanin.jpg' class='arc4' data-gal="prettyPhoto"></a>                            
                             <div class='arc5'></div>
                             <div class='arc6'></div>
                             <a href ="http://www.facebook.com" class='arc7'></a>
