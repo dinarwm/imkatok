@@ -11,7 +11,7 @@ class Berita extends CI_Model
 
 	public function getInfo($umur)
 	{
-		return $this->db->query("select * from infografik where umur='$umur'");
+		return $this->db->get_where('infografik', array('umur' => $umur));
 	}
 
 }
