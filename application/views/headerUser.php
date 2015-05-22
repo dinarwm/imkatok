@@ -158,12 +158,12 @@ header {padding:32px 0;}
     <header >
         <div class="center-wrap">
             <div class="companyIdentity" style="height:40px">
-            	<a href="http://themes.truethemes.net/Sterling"><img src="images/aa.png" alt=""/></a>
+            	<a href="http://themes.truethemes.net/Sterling"><img src="<?php echo base_url() ?>images/aa.png" alt=""/></a>
             </div><!-- end .companyIdentity -->
             <nav>
                 <ul id="menu-main-nav">
 <li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="<?php echo base_url();?>home">Beranda</a></li>
-    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>infografik">Infografik</a></li>
+    <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>infografik/info">Infografik</a></li>
                         
     <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>kalender_kehamilan">Kalender Kehamilan</a></li>
     <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>berita">Berita</a></li>

@@ -19,6 +19,8 @@ $config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 $config['site_url'] = 'localhost/imk';
 
+// $config['base_url'] = "http://localhost/imk/";
+
 /*
 |--------------------------------------------------------------------------
 | Index File

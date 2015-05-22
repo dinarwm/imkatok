@@ -16,12 +16,12 @@ class Infografik extends CI_Controller
 
 	public function info()
 	{
+		$data['judul'] = "Infografik";
 		$this->load->model('akun');
 		$this->load->model('berita');
-		$bulan = $this->akun->getBulan();
 
 		$data['infografik'] = $this->berita->getInfo('2');
-		$this->load->view('headerHome');
+		$this->load->view('headerUser', $data);
 		$this->load->view('info_grafik', $data);
 		$this->load->view('footer');
 	}
