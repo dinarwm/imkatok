@@ -10,7 +10,7 @@ class Kalender_kehamilan extends CI_Controller
 	{
 		$data['judul'] = "Kalender Kehamilan";
 		$this->load->view('headerUser',$data);
-		$this->load->view('kalender_kehamilan');
+		$this->load->view('Kalender_kehamilan');
 		$this->load->view('footer');
 	}
 
