@@ -73,7 +73,7 @@ h6,
 		font-weight:600;padding-top:3px;
 	}
 	nav a {
-		font-size:14.5px;padding:3px 4px;
+		font-size:19px;padding:3px 4px;
 	}
 	header .sub-menu a, .sidebar li, input, textarea, select {
 		font-size:12px;
@@ -82,7 +82,7 @@ h6,
 		font-size:10px;
 	}
 	.metadata, .small_banner .page-banner-description {
-		font-size:12px;
+		font-size:16px;
 	}
 	.footer-callout-content p {
 		font-size:16px;
