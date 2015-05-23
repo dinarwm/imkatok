@@ -12,27 +12,27 @@
 		<table>
 		<tr> 
 			<td><label> Nama lengkap </label></td>
-			<td><input type="text" name="nama" id="nama" required/></td>
+			<td><input type="text" name="nama" id="nama" required placeholder="Syahara Fatma"/></td>
 		</tr>
 		<tr> 
 			<td><label> E-mail</label></td>
-			<td><input type="text" name="email" id="email" required/></td>
+			<td><input type="text" name="email" id="email" required/ placeholder="saya@mail.com"></td>
 		</tr>
 		<tr> 
 			<td><label> Password </label></td>
-			<td><input type="password" name="password" id="password" required/></td>
+			<td><input type="password" name="password" id="password" required placeholder="*****"/></td>
 		</tr>
 		<tr> 
 			<td><label> Konfirmasi Password </label></td>
-			<td><input type="password" name="password2" id="password2" required match[password]/></td>
+			<td><input type="password" name="password2" id="password2" required match[password] placeholder="*****"/></td>
 		</tr>
 		<tr> 
 			<td><label> Alamat </label></td>
-			<td><input type="text" name="alamat" id="alamat" required/></td>
+			<td><input type="text" name="alamat" id="alamat" required placeholder="Jagalan, Pundungsari, Trucuk, Klaten"/></td>
 		</tr>
 		<tr> 
 			<td><label> Umur Kehamilan </label></td>
-			<td><input type="number" name="umur" id="umur" required/> Bulan</td>
+			<td><input type="number" name="umur" id="umur" required placeholder="Bulan"/> </td>
 		</tr>
 		<tr> 
 			<td></td>

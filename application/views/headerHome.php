@@ -94,7 +94,7 @@ h6,
 		font-weight:300;padding-bottom:3px;
 	}
 	h3 {
-		font-size: 16px;font-weight: 600;
+		font-size: 18px;font-weight: 600;
 	}
 	.business-hours .day, strong, .tabs_type_1 dt, .tabs_type_2 dt, .accordion dt, .tt-contentbox-title span, .tt-dropcap-round, .tt-dropcap-square, .tt-dropcap-text {
 		font-weight: 600;

@@ -13,12 +13,12 @@
 		<tr> 
 			<td><label>E-mail</label></td>
 			<td width="30px" align="center"><label> : </label></td>
-			<td><input type="text" name="email" id="email"/></td>
+			<td><input type="text" name="email" id="email" placeholder="saya@mail.com"/></td>
 		</tr>
 		<tr> 
 			<td><label>Password</label></td>
 			<td width="30px" align="center"><label> : </label></td>
-			<td><input type="password" name="password" id="password"/></td>
+			<td><input type="password" name="password" id="password" placeholder="*****"/></td>
 		</tr>
 		<tr> 
 			<td><label></label></td>

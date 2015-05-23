@@ -1177,7 +1177,7 @@ input, textarea, button {
 	border: 1px solid #D2D2D2;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1) inset;
 	color: #747474;
-	font-size: 13px;
+	font-size: 15px;
 	padding: 8px 10px;
 }
 
@@ -4139,7 +4139,7 @@ a.tt-button.teal-2:hover {
 }
 
 .tt-contentbox-title span {
-	font-size: 11px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	overflow: hidden;
 	text-transform: uppercase;
