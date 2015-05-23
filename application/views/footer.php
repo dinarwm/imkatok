@@ -35,13 +35,13 @@
 
     	                    <a href="#" id="scroll_to_top" class="link-top">Kembali ke bagian atas</a>
             
-                            <ul class="footer-nav">
+                            <!-- <ul class="footer-nav">
                     <li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="http://themes.truethemes.net/Sterling/pages">Beranda</a></li>
 <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="http://themes.truethemes.net/Sterling/features">Kalender Kehamilan</a></li>
 <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="http://themes.truethemes.net/Sterling/styles">Berita</a></li>
 <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="http://themes.truethemes.net/Sterling/shortcodes">Galeri</a></li>
                 </ul>
-                    </div><!-- end .center-wrap -->
+ -->                    </div><!-- end .center-wrap -->
     </div><!-- end .footer-copyright -->
 
     <div class="shadow top"></div>

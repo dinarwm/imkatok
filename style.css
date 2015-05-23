@@ -49,7 +49,7 @@ Tags:translation-ready,theme-options,custom-menu,responsive,html5
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
 	border: 0;
 	font: inherit;
-	font-size: 130%;
+	font-size: 100%;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
@@ -369,7 +369,7 @@ nav > ul > li+li {
 }
 
 nav a {
-	font-size: 20px;
+	font-size: 16.5px;
 	padding: 3px 5px;
 	text-decoration: none;
 }
@@ -565,7 +565,7 @@ h6 {
 .top-aside ul,
 .top-aside li {
 	color: #FFF;
-	font-size: 16px;
+	font-size: 11px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -781,7 +781,7 @@ a {
 }
 
 p {
-	font-size: 15px;
+	font-size: 13px;
 	margin-bottom: 18px;
 	line-height: 1.6em;
 }
@@ -808,7 +808,7 @@ h1 {
 }
 
 h2 {
-	font-size: 26px;
+	font-size: 24px;
 	margin-bottom: 11px;
 }
 
@@ -1608,7 +1608,7 @@ hr {
 }
 
 .home-vertical-sidebar .widget-heading {
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 500;
 	margin-bottom: 24px;
 }

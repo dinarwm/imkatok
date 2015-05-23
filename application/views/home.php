@@ -1,32 +1,33 @@
 
 <section class="banner-slider">
-    <div class="center-wrap">
-        <div id="slides">
-            <div class="slides_container">
-            
-            <div class="clearfix home-slider-post" id="slider-post-1058">
-            <p><img class="aligncenter size-full wp-image-1059" title="Image - Web Display" src="<?php echo base_url() ?>images/cover.png" width="445" height="260" /></p>
-        </div><!-- end .home-slider-post -->
-            <div class="clearfix home-slider-post" id="slider-post-877">
-            <!-- Gambar ibu hamil -->
-            <div class="one_half">
-                <div class="img-frame full-half"><img src="<?php echo base_url() ?>images/pregnan.jpg" alt="" height="42" width="445"/></div>            
-            </div>
+        <div class="center-wrap">
+            <div id="slides">
+                <div class="slides_container">
+                
+                <div class="clearfix home-slider-post" id="slider-post-1058">
+                    <p><img class="aligncenter size-full wp-image-1059" title="Image - Web Display" src="<?php echo base_url() ?>images/cover.png" width="445" height="260" /></p>
+                </div><!-- end .home-slider-post -->
 
-            <div class="one_half">
-                <h2>Pregnancy</h2>
-					<p>Welcome to pregnancy! This is the start of an incredible journey. To help you along, we offer info on pregnancy aches and pains, weight gain and nutrition, what's safe during pregnancy and what's not, pregnancy stages, labor and delivery, and more -- plus how to sift through all those baby names to find the perfect one.</p>
-					<p><a href="#" class="small green tt-button" target="_self"> Read More → </a></p>
-            </div>
-        </div><!-- end .home-slider-post -->
-                </div><!-- end .slides_container -->
-        </div><!-- end #slides -->
-    </div><!-- end .center-wrap -->
+                <div class="clearfix home-slider-post" id="slider-post-877">
+                <!-- Gambar ibu hamil -->
+                    <div class="one_half">
+                        <div class="img-frame full-half"><img src="<?php echo base_url() ?>images/pregnan.jpg" alt="" height="42" width="445"/></div>            
+                    </div>
+
+                    <div class="one_half">
+                        <h2>Pregnancy</h2>
+        					<p>Welcome to pregnancy! This is the start of an incredible journey. To help you along, we offer info on pregnancy aches and pains, weight gain and nutrition, what's safe during pregnancy and what's not, pregnancy stages, labor and delivery, and more -- plus how to sift through all those baby names to find the perfect one.</p>
+        					<p><a href="#" class="small green tt-button" target="_self"> Read More → </a></p>
+                    </div>
+                </div><!-- end .home-slider-post -->
+                    </div><!-- end .slides_container -->
+            </div><!-- end #slides -->
+        </div><!-- end .center-wrap -->
     <div class="shadow top"></div>
     <div class="shadow bottom"></div>
     <div class="tt-overlay"></div>
 
-            <a href="#" class="next">Next</a>
+        <a href="#" class="next">Next</a>
         <a href="#" class="prev">Prev</a>
     </section>
 

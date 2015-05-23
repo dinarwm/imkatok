@@ -35,7 +35,8 @@ var mailchimpSF = {"ajax_url":"http:\/\/themes.truethemes.net\/Sterling\/"};
 <script type='text/javascript' src='<?php echo base_url() ?>js/fix/jquery.cu3er.js'></script>
 <link rel='canonical' href='home.php' />
 <link rel='shortlink' href='home.php' />
-<link href="http://themes.truethemes.net/Sterling/wp-content/themes/Sterling/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- <link href="http://themes.truethemes.net/Sterling/wp-content/themes/Sterling/style.css" rel="stylesheet" type="text/css" media="screen" /> -->
+<link href="<?php echo base_url() ?>css/fix/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="<?php echo base_url() ?>css/fix/primary-blue.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="<?php echo base_url() ?>css/fix/_mobile.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="<?php echo base_url() ?>css/fix/_font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
@@ -72,7 +73,7 @@ h6,
 		font-weight:600;padding-top:3px;
 	}
 	nav a {
-		font-size:14.5px;padding:3px 4px;
+		font-size:19px;padding:3px 4px;
 	}
 	header .sub-menu a, .sidebar li, input, textarea, select {
 		font-size:12px;
