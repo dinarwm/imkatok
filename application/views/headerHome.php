@@ -82,7 +82,7 @@ h6,
 		font-size:10px;
 	}
 	.metadata, .small_banner .page-banner-description {
-		font-size:12px;
+		font-size:16px;
 	}
 	.footer-callout-content p {
 		font-size:16px;
