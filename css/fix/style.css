@@ -112,7 +112,7 @@ a {
 }
 
 .hr {
-	background: url(images/global/bg-hr-dotted.png) 0 50% repeat-x;
+	background: url(../../images/global/bg-hr-dotted.png) 0 50% repeat-x;
 	border: 0;
 	clear: both;
 	height: 50px;
@@ -124,11 +124,11 @@ p + .hr {
 }
 
 .hr-dotted {
-	background: url(images/global/bg-hr-dotted.png) 0 50% repeat-x;
+	background: url(../../images/global/bg-hr-dotted.png) 0 50% repeat-x;
 }
 
 .hr-dotted-double {
-	background: url(images/global/bg-hr-dotted-double.png) 0 50% repeat-x;
+	background: url(../../images/global/bg-hr-dotted-double.png) 0 50% repeat-x;
 }
 
 .hr-solid {
@@ -139,7 +139,7 @@ p + .hr {
 }
 
 .hr-solid-double {
-	background: url(images/global/bg-hr-solid-double.png) 0 50% repeat-x;
+	background: url(../../images/global/bg-hr-solid-double.png) 0 50% repeat-x;
 }
 
 object {
@@ -179,7 +179,7 @@ object {
 .pagination li a:hover,
 blockquote:before,
 .top-aside ul.custom-menu a .sf-sub-indicator {
-	background: url(images/global/sprite.png) no-repeat;
+	background: url(../../images/global/sprite.png) no-repeat;
 }
 
 .top-aside ul.custom-menu.sf-menu a.sf-with-ul:after,
@@ -270,7 +270,7 @@ body > div > .full-width {
 }
 
 header {
-	background: #FFF url(images/global/bg-ui-gradient.png) left top repeat-x;
+	background: #FFF url(../../images/global/bg-ui-gradient.png) left top repeat-x;
 	margin: 0 auto;
 	padding: 32px 0;
 	position: relative;
@@ -279,7 +279,7 @@ header {
 }
 
 #content-container {
-	background: #FFF url(images/global/bg-ui-gradient.png) left top repeat-x;
+	background: #FFF url(../../images/global/bg-ui-gradient.png) left top repeat-x;
 	width: 100%;
 }
 
@@ -633,7 +633,7 @@ h6 {
 }
 
 .shadow.top {
-	background: url(images/shadows/shadow-1.png) left top repeat-x;
+	background: url(../../images/shadows/shadow-1.png) left top repeat-x;
 	height: 60%;
 	position: absolute;
 	top: 0;
@@ -643,7 +643,7 @@ h6 {
 
 .shadow.bottom,
 .top-aside-shadow {
-	background: url(images/global/bg-ui-shadow-bottom.png) center bottom repeat-x;
+	background: url(../../images/global/bg-ui-shadow-bottom.png) center bottom repeat-x;
 	bottom: 0;
 	height: 30%;
 	position: absolute;
@@ -652,7 +652,7 @@ h6 {
 }
 
 .top-aside-shadow {
-	background: url(images/global/bg-top-aside-shadow.png) center bottom repeat-x;
+	background: url(../../images/global/bg-top-aside-shadow.png) center bottom repeat-x;
 	height: 10%;
 }
 
@@ -963,7 +963,7 @@ header nav a:hover,
 }
 
 .img-frame {
-	background: url(images/global/img-frames.png);
+	background: url(../../images/global/img-frames.png);
 	margin-bottom: 20px;
 }
 
@@ -1249,7 +1249,7 @@ label span {
 /* 9. Sidebar
 /*----------------------------------------------------------*/
 .sidebar {
-	background: url(images/global/image-sprite.png) 0 -100px no-repeat;
+	background: url(../../images/global/image-sprite.png) 0 -100px no-repeat;
 	float: left;
 	min-height: 500px;
 	width: 224px;
@@ -1291,7 +1291,7 @@ div + .sidebar > * {
 }
 
 .sidebar ul {
-	list-style-image: url(images/global/bullet-type-1.png);
+	list-style-image: url(../../images/global/bullet-type-1.png);
 	padding-left: 14px;
 }
 
@@ -1344,7 +1344,7 @@ div + .subnav_cont > * {
 }
 
 .sidebar .subnav a:hover {
-	background: url(images/global/bg-subnav-link-hover.png) top right no-repeat;
+	background: url(../../images/global/bg-subnav-link-hover.png) top right no-repeat;
 }
 
 .sidebar li:first-child {
@@ -1385,11 +1385,11 @@ div + .subnav_cont > * {
 }
 
 .subnav > ul ul {
-	background: #F4F4F4 url(images/global/bg-subnav-subnav.png) right top repeat-y;
+	background: #F4F4F4 url(../../images/global/bg-subnav-subnav.png) right top repeat-y;
 }
 
 ul {
-	list-style-image: url(images/global/bullet-type-1.png);
+	list-style-image: url(../../images/global/bullet-type-1.png);
 	padding: 5px 0 0 16px;
 }
 
@@ -1400,7 +1400,7 @@ ul {
 
 .sidebar .subnav ul .has_subnav ul a,
 .sidebar .subnav ul .has_subnav ul a:hover {
-	background: url(images/global/bullet-type-1.png) 90% 50% no-repeat;
+	background: url(../../images/global/bullet-type-1.png) 90% 50% no-repeat;
 }
 
 .sidebar .subnav .has_subnav ul li a,
@@ -1546,7 +1546,7 @@ hr {
 
 .banner-slider .next,
 .banner-slider .prev {
-/*background:url(images/global/bg-slider-navigation-arrows.png) no-repeat 0 0;*/
+/*background:url(../../images/global/bg-slider-navigation-arrows.png) no-repeat 0 0;*/
 	background-position: 0 -5799px;
 	cursor: pointer;
 	display: block;
@@ -1623,7 +1623,7 @@ hr {
 }
 
 .home-vertical-sidebar .recent-post-widget-text a {
-	background: url(images/global/arrow-right.png) right center no-repeat;
+	background: url(../../images/global/arrow-right.png) right center no-repeat;
 	display: inline-block;
 	padding-right: 28px;
 }
@@ -1669,7 +1669,7 @@ hr {
 }
 
 .hero-wrap {
-	background: url(images/global/bg-home-banner-hero.png) left bottom no-repeat;
+	background: url(../../images/global/bg-home-banner-hero.png) left bottom no-repeat;
 	height: 320px;
 	left: -40px;
 	padding-bottom: 89px;
@@ -1693,7 +1693,7 @@ hr {
 }
 
 .lightbox-link {
-	background: url(images/global/bg-home-lightbox-link.png) 0 0 no-repeat;
+	background: url(../../images/global/bg-home-lightbox-link.png) 0 0 no-repeat;
 	display: block;
 	height: 315px;
 	left: 27px;
@@ -1927,14 +1927,14 @@ article hr {
 }
 
 .comment-title {
-	background: url(images/global/bg-blog-comments.png) no-repeat scroll 0 50% transparent;
+	background: url(../../images/global/bg-blog-comments.png) no-repeat scroll 0 50% transparent;
 	font-size: 18px;
 	margin-bottom: 13px;
 	padding: 5px 0 5px 26px;
 }
 
 #cancel-comment-reply-link {
-	background: url(images/global/icon-cancel-reply.png) 0 50% no-repeat;
+	background: url(../../images/global/icon-cancel-reply.png) 0 50% no-repeat;
 	color: #AF3435;
 	margin-left: 20px;
 	padding: 25px 25px 25px 20px;
@@ -1942,12 +1942,12 @@ article hr {
 }
 
 #blog-comment-outer-wrap {
-	background: url(images/global/bg-blog-comment-wrap.png) 0 0 repeat-x;
+	background: url(../../images/global/bg-blog-comment-wrap.png) 0 0 repeat-x;
 	margin-top: -1px;
 }
 
 .tt-comment-count {
-	background: url(images/global/arrow-up-2.png) 31px 29px no-repeat;
+	background: url(../../images/global/arrow-up-2.png) 31px 29px no-repeat;
 	font-size: 16px;
 	padding-bottom: 18px;
 	margin-bottom: 0px;
@@ -2127,7 +2127,7 @@ ol #respond {
 /*----------------------------------------------------------*/
 #gallery-outer-wrap,
 #contact-content-wrap {
-	background: url(images/global/bg-gallery-wrap.png) top center no-repeat;
+	background: url(../../images/global/bg-gallery-wrap.png) top center no-repeat;
 	clear: both;
 	width: 100%;
 }
@@ -2141,13 +2141,13 @@ ol #respond {
 }
 
 .lightbox-zoom {
-	background: url(images/global/lightbox-zoom.png) center center no-repeat;
+	background: url(../../images/global/lightbox-zoom.png) center center no-repeat;
 	height: 100%;
 	width: 100%;
 }
 
 .lightbox-linked {
-	background: url(images/global/lightbox-linked.png) center center no-repeat;
+	background: url(../../images/global/lightbox-linked.png) center center no-repeat;
 	height: 100%;
 	width: 100%;
 }
@@ -2326,7 +2326,7 @@ ol #respond {
 
 /* ----- 404 Page not found ----- */
 .page-not-found {
-	background: url(images/global/bg-page-not-found.png) 0 0 no-repeat;
+	background: url(../../images/global/bg-page-not-found.png) 0 0 no-repeat;
 	height: 266px;
 	margin: 0 0 10px 75px;
 	padding: 80px 0 0 430px;
@@ -2389,7 +2389,7 @@ ol #respond {
 }
 
 #days, #hours, #mins, #secs {
-	background: url(images/global/image-sprite.png) -232px -7px no-repeat;
+	background: url(../../images/global/image-sprite.png) -232px -7px no-repeat;
 	float: left;
 	height: 81px;
 	width: 81px;
@@ -2435,7 +2435,7 @@ ol #respond {
 /* 15. FAQ + Team Members
 /*----------------------------------------------------------*/
 .faq-answers {
-	background: url(images/global/bg-faq-answers.png) 0 0 no-repeat;
+	background: url(../../images/global/bg-faq-answers.png) 0 0 no-repeat;
 	clear: both;
 	margin: 50px 0 0 0;
 	padding-top: 60px;
@@ -2486,7 +2486,7 @@ ol #respond {
 }
 
 .basic-divider {
-	background: url(images/global/bg-divider-basic.png) right center no-repeat;
+	background: url(../../images/global/bg-divider-basic.png) right center no-repeat;
 	clear: both;
 	display: block;
 	height: 20px;
@@ -2496,7 +2496,7 @@ ol #respond {
 }
 
 .faq-number {
-	background: url(images/global/bg-faq-numbers.png) 0 0 no-repeat;
+	background: url(../../images/global/bg-faq-numbers.png) 0 0 no-repeat;
 	float: left;
 	height: 87px;
 	margin-right: 40px;
@@ -2840,7 +2840,7 @@ footer .sidebar-widget {
 }
 
 .footer-callout {
-/*background:#E4E4E4 url(images/global/bg-footer-callout.png) left top repeat-x;*/
+/*background:#E4E4E4 url(../../images/global/bg-footer-callout.png) left top repeat-x;*/
 	background-color: #efefef;
 	background-image: linear-gradient(top, #fafafa, #e6e6e6);
 	border-top: 1px solid #dfdfdf;
@@ -2897,7 +2897,7 @@ footer > div > p {
 }
 
 footer ul {
-	list-style-image: url(images/global/bullet-type-1-footer.png);
+	list-style-image: url(../../images/global/bullet-type-1-footer.png);
 }
 
 footer nav {
@@ -3042,7 +3042,7 @@ footer .construction-default-three .social_icons li,
  
 /*----- Buttons ----- */
 a.tt-button {
-/*background-image:url(images/shortcodes/button-sprite.png);*/
+/*background-image:url(../../images/shortcodes/button-sprite.png);*/
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
 	display: inline-block;
@@ -3889,7 +3889,7 @@ a.tt-button.teal-2:hover {
 }
 
 .tabs_type_2 dd {
-	background-image: url(images/shortcodes/tabs-type2-BG.png);
+	background-image: url(../../images/shortcodes/tabs-type2-BG.png);
 	background-repeat: repeat-x;
 	display: none;
 	padding: 30px;
@@ -6318,7 +6318,7 @@ blockquote.right {
 
 #mc_signup #mc_signup_submit,
 #constant-contact-signup .button {
-	background: url(images/global/bg-submit-button.png) repeat scroll 0 0 transparent;
+	background: url(../../images/global/bg-submit-button.png) repeat scroll 0 0 transparent;
 	border: 1px solid #D5D5D5;
 	border-radius: 3px 3px 3px 3px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -6763,7 +6763,7 @@ a.instagram {
 
 .wp-pagenavi a:hover,
 .wp-pagenavi .current {
-	background: url(images/global/bg-input-gradient.gif) repeat-x scroll -1px -2px #F9F9F9;
+	background: url(../../images/global/bg-input-gradient.gif) repeat-x scroll -1px -2px #F9F9F9;
 	border: 1px solid #DDD;
 	color: #666666;
 }
@@ -6793,7 +6793,7 @@ a.instagram {
 }
 
 #twitter-link {
-	background: url(images/global/sprite.png) 0 -346px no-repeat;
+	background: url(../../images/global/sprite.png) 0 -346px no-repeat;
 	display: inline-block;
 	font-size: 12px;
 	margin-left: 15px;
@@ -6813,7 +6813,7 @@ a.instagram {
 }
 
 .sidebar #twitter_update_list li {
-	background: url(images/global/bg-hr-dotted.png) repeat-x scroll center bottom transparent;
+	background: url(../../images/global/bg-hr-dotted.png) repeat-x scroll center bottom transparent;
 	font-size: 11px;
 	line-height: 20px;
 	padding: 10px 0;
@@ -6864,7 +6864,7 @@ a.instagram {
 }
 
 #content-container .sidebar-widget #SGM input {
-	background: url(images/global/bg_text_field_3.png) no-repeat 0 0 transparent !important;
+	background: url(../../images/global/bg_text_field_3.png) no-repeat 0 0 transparent !important;
 	border: medium none;
 	color: #666;
 	font-size: 11px;
@@ -6879,7 +6879,7 @@ a.instagram {
 }
 
 #SGM input.submit {
-	background-image: url(images/global/main_button_bg_2.jpg) !important;
+	background-image: url(../../images/global/main_button_bg_2.jpg) !important;
 	background-position: 0px 0px !important;
 	background-repeat: repeat-x !important;
 	border: 1px solid #e6e6e6 !important;
@@ -7001,15 +7001,15 @@ div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top 
 }
 
 div.pp_default .pp_top .pp_left {
-	background: url(images/prettyPhoto/default/sprite.png) -78px -93px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) -78px -93px no-repeat;
 }
 
 div.pp_default .pp_top .pp_middle {
-	background: url(images/prettyPhoto/default/sprite_x.png) top left repeat-x;
+	background: url(../../images/prettyPhoto/default/sprite_x.png) top left repeat-x;
 }
 
 div.pp_default .pp_top .pp_right {
-	background: url(images/prettyPhoto/default/sprite.png) -112px -93px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) -112px -93px no-repeat;
 }
 
 div.pp_default .pp_content .ppt {
@@ -7017,58 +7017,58 @@ div.pp_default .pp_content .ppt {
 }
 
 div.pp_default .pp_content_container .pp_left {
-	background: url(images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
+	background: url(../../images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
 	padding-left: 13px;
 }
 
 div.pp_default .pp_content_container .pp_right {
-	background: url(images/prettyPhoto/default/sprite_y.png) top right repeat-y;
+	background: url(../../images/prettyPhoto/default/sprite_y.png) top right repeat-y;
 	padding-right: 13px;
 }
 
 div.pp_default .pp_next:hover {
-	background: url(images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite_next.png) center right no-repeat;
 	cursor: pointer;
 }
 
 div.pp_default .pp_previous:hover {
-	background: url(images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
 	cursor: pointer;
 }
 
 div.pp_default .pp_expand {
-	background: url(images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
 	cursor: pointer;
 	height: 28px;
 	width: 28px;
 }
 
 div.pp_default .pp_expand:hover {
-	background: url(images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
 	cursor: pointer;
 }
 
 div.pp_default .pp_contract {
-	background: url(images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
 	cursor: pointer;
 	height: 28px;
 	width: 28px;
 }
 
 div.pp_default .pp_contract:hover {
-	background: url(images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
 	cursor: pointer;
 }
 
 div.pp_default .pp_close {
-	background: url(images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
 	cursor: pointer;
 	height: 30px;
 	width: 30px;
 }
 
 div.pp_default .pp_gallery ul li a {
-	background: url(images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+	background: url(../../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
 	border: 1px solid #aaa;
 }
 
@@ -7082,7 +7082,7 @@ div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_a
 }
 
 div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause {
-	background: url(images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
 	height: 30px;
 	width: 30px;
 }
@@ -7092,7 +7092,7 @@ div.pp_default .pp_nav .pp_pause {
 }
 
 div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next {
-	background: url(images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
 	height: 20px;
 	margin: 4px 0 0;
 	width: 20px;
@@ -7139,19 +7139,19 @@ div.pp_default .pp_description {
 }
 
 div.pp_default .pp_bottom .pp_left {
-	background: url(images/prettyPhoto/default/sprite.png) -78px -127px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) -78px -127px no-repeat;
 }
 
 div.pp_default .pp_bottom .pp_middle {
-	background: url(images/prettyPhoto/default/sprite_x.png) bottom left repeat-x;
+	background: url(../../images/prettyPhoto/default/sprite_x.png) bottom left repeat-x;
 }
 
 div.pp_default .pp_bottom .pp_right {
-	background: url(images/prettyPhoto/default/sprite.png) -112px -127px no-repeat;
+	background: url(../../images/prettyPhoto/default/sprite.png) -112px -127px no-repeat;
 }
 
 div.pp_default .pp_loaderIcon {
-	background: url(images/prettyPhoto/default/loader.gif) center center no-repeat;
+	background: url(../../images/prettyPhoto/default/loader.gif) center center no-repeat;
 }
 
 div.pp_pic_holder a:focus {
@@ -7302,7 +7302,7 @@ a.pp_arrow_previous,a.pp_arrow_next {
 }
 
 .pp_gallery li.default a {
-	background: url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+	background: url(../../../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
 	display: block;
 	height: 33px;
 	width: 50px;
@@ -7313,7 +7313,7 @@ a.pp_arrow_previous,a.pp_arrow_next {
 }
 
 a.pp_next {
-	background: url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+	background: url(../../../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
 	display: block;
 	float: right;
 	height: 100%;
@@ -7322,7 +7322,7 @@ a.pp_next {
 }
 
 a.pp_previous {
-	background: url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+	background: url(../../../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
 	display: block;
 	float: left;
 	height: 100%;

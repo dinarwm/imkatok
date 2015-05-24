@@ -12,14 +12,16 @@
 <section id="content-container" class="clearfix">
     <div id="main-wrap" class="clearfix">
                 <div class="sitemap-col s-one">
-            <p class="sitemap-title">Pages List</p>
+
+            <p class="sitemap-title">Menu Forum</p>
             <ul>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://themes.truethemes.net/Sterling/">Tri semester 1</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1069"><a href="http://themes.truethemes.net/Sterling/pages">Tri semester 2</a>
-
+                <li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1069"><a href="<?php echo base_url() ?>forum/ts1">Tri semester 1</a></li>
+                <ul class="sub-menu">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1708"><a href="<?php echo base_url() ?>forum/ts1/1 ?>">Asiku masih sedikit</a></li>
+                </ul>                
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://themes.truethemes.net/Sterling/">Tri semester 2</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://themes.truethemes.net/Sterling/">Tri semester 3</a></li>
-
-</ul>
+            </ul>
         </div><!-- end .sitemap-col -->
 
         <div class="sitemap-col s-two">

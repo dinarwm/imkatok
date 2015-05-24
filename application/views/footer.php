@@ -5,25 +5,15 @@
                     <div class="sidebar-widget widget_text">			<div class="textwidget"><p><img src="<?php echo base_url() ?>images/logo-white.png" alt="TrueThemes - Responsive Wordpress"></p>
 </div>
 		</div>                </div><!-- end .footer-default-one -->
-
-		<div class="footer-default-two">
+        
+		<div class="footer-default-one">
                     <div class="sidebar-widget widget_text">			<div class="textwidget">
-<p>Pregnancy Care adalah website yang dibuat untuk memberikan pengetahuan dasar seputar kehamilan sehingga ibu hamil lebih mengerti kondisi kehamilannya setiap saat</p>
+<p style="margin-left:100px">Pregnancy Care adalah website yang dibuat untuk memberikan pengetahuan dasar seputar kehamilan sehingga ibu hamil lebih mengerti kondisi kehamilannya setiap saat</p>
 </div>
 		</div>                </div><!-- end .footer-default-one -->
 
                 
-                <div class="footer-default-three">
-                    <div class="sidebar-widget social_widget"><p class="foot-heading">Kunjungi Halaman Kami Yang Lain</p>
-
-
-
-<ul class="social_icons">
-<li><a href="http://www.twitter.com/truethemes" class="twitter" onclick="window.open(this.href);return false;">Twitter</a></li>
-<li><a href="http://www.facebook.com/truethemes" class="facebook" onclick="window.open(this.href);return false;">Facebook</a></li>
-</ul>
-
-        </div>                </div><!-- end .footer-default-three -->
+                
                     </div><!-- end .footer-content -->
     </div><!-- end .center-wrap -->
 

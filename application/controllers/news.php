@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Berita extends CI_Controller
+class News extends CI_Controller
 {	
 	function __construct() {
 		parent::__construct();
@@ -14,18 +14,20 @@ class Berita extends CI_Controller
 
 		if($this->session->userdata('login') == TRUE)
 		{
-		$this->load->view('headerUser', $data);
-		$this->load->view('berita',$data);
-		$this->load->view('footer');
+			$this->load->view('headerUser',$data);
 		}
 		else
 		{
-		$this->load->view('headerHome', $data);
+			$this->load->view('headerHome',$data);	
+		}
 		$this->load->view('berita',$data);
 		$this->load->view('footer');
-		}
 	}
 
+	public function listBerita()
+	{
+		
+	}
 
 }
 ?>

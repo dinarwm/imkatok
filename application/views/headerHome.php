@@ -137,10 +137,6 @@ header {padding:32px 0;}
         <div class="center-wrap">
             <div class="one_half">
             	<div class="sidebar-widget social_widget">
-					<ul class="social_icons">
-	            		<li><a href="http://www.twitter.com/truethemes" class="twitter" onclick="window.open(this.href);return false;">Twitter</a></li>
-						<li><a href="http://www.facebook.com/truethemes" class="facebook" onclick="window.open(this.href);return false;">Facebook</a></li>
-            		</ul>
         		</div> 
             </div>
 
@@ -166,7 +162,7 @@ header {padding:32px 0;}
                 <ul id="menu-main-nav">
 <li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a href="<?php echo base_url() ?>home/">Beranda</a></li>
     <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="<?php echo base_url();?>kalender_kehamilan">Kalender Kehamilan</a></li>
-    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>berita">Berita</a></li>
+    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="<?php echo base_url();?>news">Berita</a></li>
     <li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="<?php echo base_url();?>gallery">Galeri</a></li>
                 </ul>
             </nav>
