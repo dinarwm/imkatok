@@ -1,11 +1,11 @@
 <section class="small_banner">
             <div class="center-wrap ">
-                    <p class="page-banner-heading">Gallery</p>
+                    <p class="page-banner-heading">Galeri</p>
         
         
                     <p class="page-banner-description" id="banner-description-641">Galeri pada masa kehamilan.</p>
         
-                    <div class="breadcrumbs"><a href="http://themes.truethemes.net/Sterling">Home</a> &rarr; <span class='current_crumb'>Gallery</span></div><!-- end .breadcrumbs -->
+                    <div class="breadcrumbs"><a href="http://themes.truethemes.net/Sterling">Home</a> &rarr; <span class='current_crumb'>Galeri</span></div><!-- end .breadcrumbs -->
             </div><!-- end .center-wrap -->
     <div class="shadow top"></div>
     <div class="shadow bottom"></div>

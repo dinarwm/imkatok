@@ -8,7 +8,7 @@ class Gallery extends CI_Controller
 
 	public function index()
 	{
-		$data['judul'] = "Gallery";
+		$data['judul'] = "Galeri";
 		if($this->session->userdata('login') != TRUE)
 		{
 			$this->load->view('headerHome', $data);

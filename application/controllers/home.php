@@ -65,7 +65,7 @@ class Home extends CI_Controller
 		}
 		else
 		{
-			$data['judul'] = "Register";
+			$data['judul'] = "Daftar";
 			$this->load->view('headerHome',$data);
 			$this->load->view('registrasi');
 			$this->load->view('footer');

@@ -2,7 +2,7 @@
 <section id="content-container" class="clearfix">
 <div id="main-wrap" class="clearfix">
 <div class="column-clear">&nbsp;</div>
-<h3 style="text-align: center;">Registrasi</h3>
+<h3 style="text-align: center;">Daftar</h3>
 <div class="column-clear">&nbsp;</div>
 <div class="tt-contentbox">
 <div class="tt-contentbox-title tt-cb-title-cool-blue"><span>Cek kehamilan Anda sekarang! Daftarkan diri Anda</span></div>
@@ -27,12 +27,8 @@
 			<td><input type="password" name="password2" id="password2" required match[password] placeholder="*****"/></td>
 		</tr>
 		<tr> 
-			<td><label> Alamat </label></td>
-			<td><input type="text" name="alamat" id="alamat" required placeholder="Jagalan, Pundungsari, Trucuk, Klaten"/></td>
-		</tr>
-		<tr> 
 			<td><label> Umur Kehamilan </label></td>
-			<td><input type="number" name="umur" id="umur" required placeholder="Bulan"/> </td>
+			<td><input type="text" name="umur" id="umur" required placeholder="Bulan"/> </td>
 		</tr>
 		<tr> 
 			<td></td>
