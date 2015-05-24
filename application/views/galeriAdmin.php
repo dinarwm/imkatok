@@ -29,17 +29,19 @@
     <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
     <thead>
     <tr>
-        <th>ID Berita</th>
-        <th>Judul Berita</th>
+        <th>ID</th>
+        <th>Gambar</th>
+        <th>Deskripsi</th>
         <th>Action</th>
     </tr>
     </thead>
     <tbody>
-    <?php foreach ($berita->result() as $row) {?>
+    <?php foreach ($galeri->result() as $row) {?>
        
     <tr>
-        <td><?php echo $row->id_berita;?></td>
-        <td class="center"><?php echo $row->judul_berita;?></td>
+        <td><?php echo $row->id_foto;?></td>
+        <td class="center"><?php echo "<img height='120' width='120'src=". base_url()."/".$row->foto .">";?></td>
+        <td class="center"><p><?php echo $row->caption;?></p></td>
         <td class="center">
             <a class="btn btn-success" href="#">
                 <i class="glyphicon glyphicon-zoom-in icon-white"></i>
@@ -59,9 +61,9 @@
     }
     ?>
     <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Tambah Berita
-            </a>
+        <i class="glyphicon glyphicon-plus icon-white"></i>
+        Tambah Berita
+    </a>
     </tbody>
     </table>
     </div>

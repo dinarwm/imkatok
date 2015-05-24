@@ -16,13 +16,13 @@
         ===
     -->
     <meta charset="utf-8">
-    <title><?php echo $admin;?></title>
+    <title>Free HTML5 Bootstrap Admin Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
     <meta name="author" content="Muhammad Usman">
 
     <!-- The styles -->
-    <link id="bs-css" href="<?php echo base_url();?>css/admin/css/bootstrap-cerulean.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/admin/css/bootstrap-cerulean.min.css" rel="stylesheet">
 
     <link href="<?php echo base_url();?>css/admin/css/charisma-app.css" rel="stylesheet">
     <link href='<?php echo base_url();?>css/admin/bower_components/fullcalendar/dist/fullcalendar.css' rel='stylesheet'>
@@ -44,17 +44,17 @@
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="<?php echo base_url();?>css/admin/http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <!-- The fav icon -->
-    <link rel="shortcut icon" href="<?php echo base_url();?>images/mommy.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
 
 </head>
 
 <body>
     <!-- topbar starts -->
-    <div class="navbar navbar-default" role="navigation">
+     <div class="navbar navbar-default" role="navigation">
 
         <div class="navbar-inner">
             <button type="button" class="navbar-toggle pull-left animated flip">
@@ -96,15 +96,13 @@
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
                         <li class="nav-header">Main</li>
-                        <li><a class="ajax-link" href="#"><i class="glyphicon glyphicon-home"></i><span> Dashboard</span></a>
+                        <li><a href="index.html"><i class="glyphicon glyphicon-home"></i><span> Dashboard</span></a>
+                        <li><a href="#"><i class="glyphicon glyphicon-home"></i><span> Berita</span></a>
+                        <li><a href="#"><i class="glyphicon glyphicon-home"></i><span> Forum</span></a>
+                        <li><a href="#"><i class="glyphicon glyphicon-home"></i><span> Galeri</span></a>
                         </li>
-                        <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Accordion Menu</span></a>
-                                <li><a href="#">Child Menu 1</a></li>
-                                <li><a href="#">Child Menu 2</a></li>
-                        </li>
-                        <li><a class="ajax-link" href="form.html"><i class="glyphicon glyphicon-edit"></i><span> Galeri</span></a></li>
                     </ul>
+                    <label id="for-is-ajax" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
                 </div>
             </div>
         </div>
