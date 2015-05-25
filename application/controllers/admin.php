@@ -18,16 +18,14 @@ class Admin extends CI_Controller
 	}
 	public function berita() 
 	{
-		$this->load->model('berita');
-		$data['berita'] = $this->berita->getBeritaID($id);
-		
-		$this->load->model('berita');
+		$this->load->model('berita');		
 		$data['berita'] = $this->berita->getBerita();
 		$data['admin'] = 'Admin';
 
 		$this->load->view('headerAdmin', $data);
 		$this->load->view('beritaAdmin', $data);
 		$this->load->view('footerAdmin');
+		
 	}
 	public function tambahberita()
 	{
@@ -49,6 +47,9 @@ class Admin extends CI_Controller
 	}
 	public function lihatberita($id)
 	{
+		
+		$this->load->model('berita');
+		$data['berita'] = $this->berita->getBeritaID($id);
 		
 
 	}
