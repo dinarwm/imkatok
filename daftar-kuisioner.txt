@@ -2,16 +2,16 @@
 2. Apakah anda dapat menemukan informasi yang anda inginkan dengan mudah?
 3. Apakah tombol-tombol yang ada berada pada tempat yang konsisten?
 4. Apakah halaman yang anda inginkan dapat dimuat dengan cepat?
-5. Apakah anda pernah mengunjungu halaman web seperti ini? ya/tidak
+5. Apakah anda pernah mengunjungi halaman web seperti ini? ya/tidak
 6. Seberapa besar anda terbantu dengan fitur infografis yang ada?
 7. Seberapa besar anda terbantu dengan fitur forum yang ada?
 8. Seberapa besar anda terbantu dengan fitur kalender kehamilan yang ada?
 9. Apakah bahasa yang digunakan mudah dipahami?
-10. Apakah informasi yang disediakan memenuhi informasi kebutuhankan?
+10. Apakah informasi yang disediakan memenuhi informasi kebutuhan?
 11. Apakah komposisi warna yang terdapat pada halaman yang anda kunjungi sudah sesuai?
 12. Apakah anda dapat menemukan tombol navigasi yang anda butuhkan dengan mudah?
 13. Apakah ketika memasukkan data ke halaman website anda melakukan sedikit kesalahan?
-14. Apakah pada halaman yang memerlukan masukkan data dari pengguna terdapat bantuan yang dapat meminimalisir kesalahan ketika memasukkan data?
+14. Apakah pada halaman yang memerlukan masukan data dari pengguna terdapat bantuan yang dapat meminimalisir kesalahan ketika memasukkan data?
 15. Apakah anda mudah untuk mengingat letak dari fitur-fitur yang terdapat pada website ini?
 16. Apakah tampilan pada halaman website terlalu berlebihan sehingga membuat halaman website yang anda kunjungi dimuat dalam waktu yang lama?
 17. 
