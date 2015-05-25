@@ -17,10 +17,7 @@ class Admin extends CI_Controller
 		$this->load->view('footerAdmin');
 	}
 	public function berita() 
-	{
-		$this->load->model('berita');
-		$data['berita'] = $this->berita->getBeritaID($id);
-		
+	{		
 		$this->load->model('berita');
 		$data['berita'] = $this->berita->getBerita();
 		$data['admin'] = 'Admin';
@@ -49,18 +46,19 @@ class Admin extends CI_Controller
 	}
 	public function lihatberita($id)
 	{
-		
+		$this->load->model('berita');
+		$data['judul'] = 'Admin';
+		$data['berita'] = $this->berita->getBeritaID($id);
 
+		$this->load->view('headerAdmin', $data);
+		$this->load->view('beritaPenuhAdmin', $data);
+		$this->load->view('footerAdmin');
 	}
 	public function forum()
 	{	
 		$this->load->model('forum');
 		$data['forum'] = $this->forum->getForum();
 		$data['admin'] = 'Admin';
-
-		$this->load->view('headerAdmin', $data);
-		$this->load->view('forumAdmin', $data);
-		$this->load->view('footerAdmin');
 	}
 	public function galeri()
 	{
