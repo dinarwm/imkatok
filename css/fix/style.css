@@ -7177,7 +7177,7 @@ div.pp_overlay {
 	left: 0;
 	position: absolute;
 	top: 0;
-	width: 100%;
+	width: 400px;
 	z-index: 9500;
 }
 
@@ -7190,11 +7190,11 @@ div.pp_pic_holder {
 
 .pp_content {
 	height: 40px;
-	min-width: 40px;
+	min-width: 100px;
 }
 
 * html .pp_content {
-	width: 40px;
+	width: 100px;
 }
 
 .pp_content_container {

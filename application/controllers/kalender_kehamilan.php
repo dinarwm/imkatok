@@ -8,6 +8,8 @@ class Kalender_kehamilan extends CI_Controller
 
 	public function index()
 	{
+		$this->load->model("info");
+		$data['bulan'] = $this->info->getAll();
 		$data['judul'] = "Kalender Kehamilan";
 		if($this->session->userdata('login') == TRUE)
 		{
@@ -17,7 +19,7 @@ class Kalender_kehamilan extends CI_Controller
 		{
 			$this->load->view('headerHome',$data);	
 		}
-		$this->load->view('Kalender_kehamilan');
+		$this->load->view('Kalender_kehamilan',$data);
 		$this->load->view('footer');
 	}
 
@@ -32,12 +34,13 @@ class Kalender_kehamilan extends CI_Controller
 		}
 	}
 
-	public function error()
+	public function info($id)
 	{
-		$data['judul'] = "404 Not Found";
-		$this->load->view('header',$data);
-		$this->load->view('not-found-404');
-		$this->load->view('footer');
+		$this->load->model('info');
+		$data['infografik'] = $this->info->getInfo($id);
+		$this->load->view('deskripsi', $data);
+
+
 	}
 }
 ?>

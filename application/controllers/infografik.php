@@ -8,11 +8,13 @@ class Infografik extends CI_Controller
 
 	public function index()
 	{
-
-		$data['judul'] = "Infografik";
-		$this->load->view('headerHome',$data);
-		$this->load->view('info_grafik');
-		$this->load->view('footer');
+		if($this->session->userdata('login') == TRUE)
+		{
+			$data['judul'] = "Infografik";
+			$this->load->view('headerHome',$data);
+			$this->load->view('info_grafik');
+			$this->load->view('footer');
+		}
 	}
 
 	public function info()
