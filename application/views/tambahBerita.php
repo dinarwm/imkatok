@@ -1,56 +1,42 @@
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/wysiwyg/lib/css/bootstrap.min.css"></link>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/wysiwyg/lib/css/prettify.css"></link>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/wysiwyg/src/bootstrap-wysihtml5.css"></link>
-
-<style type="text/css" media="screen">
-	.btn.jumbo {
-		font-size: 20px;
-		font-weight: normal;
-		padding: 14px 24px;
-		margin-right: 10px;
-		-webkit-border-radius: 6px;
-		-moz-border-radius: 6px;
-		border-radius: 6px;
-	}
-</style>
-
+<script type="text/javascript" src="<?php echo base_url();?>js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-30181385-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
-<body>
-<div class="container">
-	<div class="hero-unit" style="margin-top:40px">
-		<h1 style="font-size:58px">bootstrap-wysihtml5 <small>Simple, beautiful wysiwyg editors</small></h1>
-		<hr/>
-		<textarea class="textarea" placeholder="Enter text ..." style="width: 810px; height: 200px"></textarea>
-	</div>
-</div>
-
-
-<script src="<?php echo base_url();?>css/wysiwyg/lib/js/wysihtml5-0.3.0.js"></script>
-<script src="<?php echo base_url();?>css/wysiwyg/lib/js/jquery-1.7.2.min.js"></script>
-<script src="<?php echo base_url();?>css/wysiwyg/lib/js/prettify.js"></script>
-<script src="<?php echo base_url();?>css/wysiwyg/lib/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url();?>css/wysiwyg/src/bootstrap-wysihtml5.js"></script>
-
-<script>
-	$('.textarea').wysihtml5();
+tinymce.init({
+    selector: "textarea",
+    plugins: [
+        "advlist autolink lists link image charmap print preview anchor",
+        "searchreplace visualblocks code fullscreen",
+        "insertdatetime media table contextmenu paste"
+    ],
+    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link"
+});
 </script>
 
-<script type="text/javascript" charset="utf-8">
-	$(prettyPrint);
-</script>
+        <div id="content" class="col-lg-10 col-sm-10">
+            <!-- content starts -->
+                <div>
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#"><?php echo $admin;?></a>
+            </li>
+        </ul>
+    </div>
 
-</body>
-</html>
+    <div class="row">
+    <div class="box col-md-12">
+    <div class="box-inner">
+
+        <form method="post" action="<?php echo base_url();?>admin/tamber">
+            <h3>Judul</h3>
+            <input type="text" id="judul" name="judul"/> </input>
+            <br><br>
+            <textarea name="content" style="width:80%;height=80%;"></textarea>
+            <input type="submit" class="btn btn-blue" style="float:right" value="Kirim">
+        </form> 
+    </div>
+    </div>
+    <!--/span-->
+
+    </div><!--/row-->

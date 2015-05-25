@@ -28,9 +28,20 @@ class Admin extends CI_Controller
 	public function tambahberita()
 	{
 		$data['admin'] = 'Admin';
+		$data['judul'] = 'Admin';
+		$data['hasil'] = 2;
 		$this->load->view('headerAdmin', $data);
 		$this->load->view('tambahBerita', $data);
 		$this->load->view('footerAdmin');
+	}
+	public function tamber()
+	{
+		$this->load->model('berita');
+		$judul = $this->input->post('judul');
+		$content =$this->input->post('content');
+		$this->berita->insert($judul,$content);
+		$this->berita();
+
 	}
 	public function forum()
 	{	
