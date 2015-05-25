@@ -9,6 +9,10 @@ class Berita extends CI_Model
 		return $this->db->get('berita'); 
 	}
 
+	public function getBeritaID($id)
+	{ 
+		return  $this->db->get_where('berita', array('id_berita' => $id));
+	}
 	public function getInfo($umur)
 	{
 		return $this->db->get_where('infografik', array('umur' => $umur));

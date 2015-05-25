@@ -1,13 +1,14 @@
 <?php
-	
+
 class Admin extends CI_Controller
 {
 	function __construct()
 	{
 		parent::__construct();
+
 	}
 
-	function index()
+	public function index()
 	{
 		$data['admin'] = 'Admin';
 
@@ -15,8 +16,11 @@ class Admin extends CI_Controller
 		$this->load->view('dashboard', $data);
 		$this->load->view('footerAdmin');
 	}
-	public function berita()
+	public function berita() 
 	{
+		$this->load->model('berita');
+		$data['berita'] = $this->berita->getBeritaID($id);
+		
 		$this->load->model('berita');
 		$data['berita'] = $this->berita->getBerita();
 		$data['admin'] = 'Admin';
@@ -41,6 +45,11 @@ class Admin extends CI_Controller
 		$content =$this->input->post('content');
 		$this->berita->insert($judul,$content);
 		$this->berita();
+
+	}
+	public function lihatberita($id)
+	{
+		
 
 	}
 	public function forum()
