@@ -32,6 +32,10 @@ class Berita extends CI_Model
 
 		$this->db->insert('berita', $data);
 	}
+	public function hapus($id)
+	{
+		$this->db->query("delete from berita where id_berita='$id'");
+	}
 }
 
 /* End of file akun.php */

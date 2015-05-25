@@ -41,15 +41,11 @@
         <td><?php echo $row->id_berita;?></td>
         <td class="center"><?php echo $row->judul_berita;?></td>
         <td class="center">
-            <a class="btn btn-success" href="<?php echo base_url();?>admin/Berita">
+            <a class="btn btn-success" href="<?php echo base_url();?>admin/lihatberita/<?php echo $row->id_berita;?>">
                 <i class="glyphicon glyphicon-zoom-in icon-white"></i>
                 View
             </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
+            <a class="btn btn-danger" href="<?php echo base_url();?>admin/deleteberita/<?php echo $row->id_berita;?>">
                 <i class="glyphicon glyphicon-trash icon-white"></i>
                 Delete
             </a>
