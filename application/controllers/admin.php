@@ -25,9 +25,15 @@ class Admin extends CI_Controller
 		$this->load->view('beritaAdmin', $data);
 		$this->load->view('footerAdmin');
 	}
-	public function forum()
+	public function tambahberita()
 	{
-		
+		$data['admin'] = 'Admin';
+		$this->load->view('headerAdmin', $data);
+		$this->load->view('tambahBerita', $data);
+		$this->load->view('footerAdmin');
+	}
+	public function forum()
+	{	
 		$this->load->model('forum');
 		$data['forum'] = $this->forum->getForum();
 		$data['admin'] = 'Admin';

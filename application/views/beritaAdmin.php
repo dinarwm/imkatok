@@ -58,7 +58,7 @@
     <?php
     }
     ?>
-    <a class="btn btn-info" href="#">
+    <a class="btn btn-info" href="<?php echo base_url();?>admin/tambahberita">
                 <i class="glyphicon glyphicon-edit icon-white"></i>
                 Tambah Berita
             </a>
