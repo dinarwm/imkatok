@@ -97,9 +97,9 @@
                     <ul class="nav nav-pills nav-stacked main-menu">
                         <li class="nav-header">Main</li>
                         <li><a href="index.html"><i class="glyphicon glyphicon-home"></i><span> Dashboard</span></a>
-                        <li><a href="#"><i class="glyphicon glyphicon-home"></i><span> Berita</span></a>
-                        <li><a href="#"><i class="glyphicon glyphicon-home"></i><span> Forum</span></a>
-                        <li><a href="#"><i class="glyphicon glyphicon-home"></i><span> Galeri</span></a>
+                        <li><a href="<?php echo base_url();?>admin/berita"><i class="glyphicon glyphicon-home"></i><span> Berita</span></a>
+                        <li><a href="<?php echo base_url();?>admin/forum"><i class="glyphicon glyphicon-home"></i><span> Forum</span></a>
+                        <li><a href="<?php echo base_url();?>admin/galeri"><i class="glyphicon glyphicon-home"></i><span> Galeri</span></a>
                         </li>
                     </ul>
                     <label id="for-is-ajax" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
