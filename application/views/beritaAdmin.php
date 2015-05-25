@@ -41,7 +41,7 @@
         <td><?php echo $row->id_berita;?></td>
         <td class="center"><?php echo $row->judul_berita;?></td>
         <td class="center">
-            <a class="btn btn-success" href="<?php echo base_url();?>admin/lihatBerita/<?php echo $row->id_berita;?>">
+            <a class="btn btn-success" href="<?php echo base_url();?>admin/Berita">
                 <i class="glyphicon glyphicon-zoom-in icon-white"></i>
                 View
             </a>
