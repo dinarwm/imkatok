@@ -1,0 +1,22 @@
+
+> proporsional logic
+> teknik informasi => tidak perlu cara infersinya (First Order Logic)
+> DNF sama CNF
+> modus pones
+> probabilistik nisbu => ..... bayesian network
+
+.pp_pic_holder pp_default
+element.style{width:}
+
+.pp-content
+element.style {width : 299px;}
+
+div pp_full_res => img => element.style{width : 299}
+
+.pp_details
+element.style{width : }
+
+.pp_description
+
+style 7200 text align
+
