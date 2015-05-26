@@ -2,7 +2,7 @@
     <div class="box col-md-9">
         <div class="box-inner">
             <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-font"></i> Berita</h2>
+                <h2><i class="glyphicon glyphicon-font"></i> Galeri</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-setting btn-round btn-default"><i
@@ -16,13 +16,13 @@
             <div class="box-content">
                 <div class="page-header">
                     <h1>
-                   <?php echo $berita->judul_berita;?>
+                   <?php echo $galeri->judul_foto;?>
                     </h1>
                 </div>
                 <div class="row ">
                     <div class="col-md-4">
-                     <p><?php echo $berita->isi_berita;?>
-                       </p>
+                    <p><?php echo "<img src=". base_url().$galeri->foto .">";?>
+                     </p>
                        </div>
                 </div>
                 <!--/row -->

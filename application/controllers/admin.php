@@ -133,12 +133,58 @@ class Admin extends CI_Controller
 	}
 	public function tamgal()
 	{
+		$target_Path = NULL;
+		if ($_FILES['userFile']['name'] != NULL)
+		{
+			$target_Path = "images/galeri/";
+			$target_Path = $target_Path.basename( $_FILES['userFile']['name'] );
+		}
 		$this->load->model('galeri');
-		$judul = $this->input->post('judul');
-		$content =$this->input->post('content');
-		$tri = $this->input->post('tri');
-		$this->galeri->insert($judul,$content,$tri);
-		$this->galeri();
+		$max = $this->galeri->max();
+		$data = array(
+			'id_foto' => $max,
+		   'caption' => $_POST['deskripsi'],
+		   'judul_foto' => $_POST['judul'],
+		   'foto' => $target_Path
+		);
+		if($this->galeri->insert($data))
+		{
+			if ($target_Path != NULL) {
+				move_uploaded_file( $_FILES['userFile']['tmp_name'], $target_Path );
+			}
+			  echo '<script language="javascript">';
+			  echo 'alert("Gambar berhasil ditambahkan");';
+			  echo 'window.location.href = "admin";';
+			  echo '</script>';
+		}
+		else
+		{
+			  echo '<script language="javascript">';
+			  echo 'alert("Gagal menyimpan gambar");';
+			  echo 'window.location.href = "admin";';
+			  echo '</script>';
+		}
+
+		/*$this->load->model('galeri');
+		$judul=$this->input->post('judul');
+		$caption=$this->input->post('content');
+		if(is_uploaded_file($_FILES['gambar']['tmp_name']))
+			{
+				$this->load->helper('url');
+				$config['upload_path'] = '';
+				$config['allowed_types'] = 'gif|jpg|jpeg|png';
+				$this->load->helper('url');
+				$gambar=url_title($_FILES['gambar']['name']);
+				$config['file_name'] = $gambar;
+				$this->load->library('upload', $config);
+				$this->upload->initialize($config);
+				if ($this->upload->do_upload('gambar')) {
+					echo "a";
+					$this->galeri->insert($judul,$gambar,$caption);
+					$this->galeri();
+				}
+			}*/
+			$this->galeri();
 
 	}
 	public function lihatgaleri($id)
@@ -154,6 +200,12 @@ class Admin extends CI_Controller
 		$this->load->view('footerAdmin');
 
 	}
+	public function deleteGaleri($id)
+	{
+		$this->load->model('galeri');
+		$this->galeri->hapus($id);
+		$this->galeri();
+	} 
 }
 
 /* End of file admin.php */

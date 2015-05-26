@@ -9,6 +9,10 @@ class Forum extends CI_Model
 		return $this->db->get('forum'); 
 	}
 
+	public function getForumID($id)
+	{ 
+		return  $this->db->get_where('forum', array('id_forum' => $id));
+	}
 	public function getInfo($umur)
 	{
 		return $this->db->get_where('infografik', array('umur' => $umur));

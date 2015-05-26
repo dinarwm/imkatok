@@ -16,12 +16,12 @@
             <div class="box-content">
                 <div class="page-header">
                     <h1>
-                   <?php echo $berita->judul_berita;?>
+                   <?php echo $judul_forum->judul_forum;?><small> Trisemester <?php echo $forum->trisemester;?>
                     </h1>
                 </div>
                 <div class="row ">
                     <div class="col-md-4">
-                     <p><?php echo $berita->isi_berita;?>
+                     <p><?php echo$judul_forum->isi_forum;?>
                        </p>
                        </div>
                 </div>
