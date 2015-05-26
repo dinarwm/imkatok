@@ -136,12 +136,6 @@ header {padding:32px 0;}
     <aside class="top-aside clearfix">
         <div class="center-wrap">
             <div class="one_half">
-            	<div class="sidebar-widget social_widget">
-					<ul class="social_icons">
-	            		<li><a href="http://www.twitter.com/truethemes" class="twitter" onclick="window.open(this.href);return false;">Twitter</a></li>
-						<li><a href="http://www.facebook.com/truethemes" class="facebook" onclick="window.open(this.href);return false;">Facebook</a></li>
-            		</ul>
-        		</div> 
             </div>
 
             <div class="one_half">

@@ -2,7 +2,7 @@
             <div class="center-wrap ">
         <p class="page-banner-heading">Forum Diskusi</p>
         
-                    <div class="breadcrumbs"><a href="http://themes.truethemes.net/Sterling">Home</a>&rarr; <span class='current_crumb'>Forum Diskusi </span></div><!-- end .breadcrumbs -->
+                    <div class="breadcrumbs"><a href="#">Home</a>&rarr; <span class='current_crumb'>Forum Diskusi </span></div><!-- end .breadcrumbs -->
             </div><!-- end .center-wrap -->
     <div class="shadow top"></div>
     <div class="shadow bottom"></div>
