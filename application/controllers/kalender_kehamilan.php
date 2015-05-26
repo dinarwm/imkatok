@@ -39,8 +39,6 @@ class Kalender_kehamilan extends CI_Controller
 		$this->load->model('info');
 		$data['infografik'] = $this->info->getInfo($id);
 		$this->load->view('deskripsi', $data);
-
-
 	}
 }
 ?>

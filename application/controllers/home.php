@@ -13,6 +13,8 @@ class Home extends CI_Controller
 		{
 			$data['judul'] = "Home";
 			$data['forum'] = "hide";
+			$this->load->model('berita');
+			$data["results"] = $this->berita->getBerita(1,0);
 			$this->load->view('headerHome', $data);
 			$this->load->view('home', $data);
 			$this->load->view('footer');
@@ -44,6 +46,8 @@ class Home extends CI_Controller
 		{
 			$data['judul'] = "Home";
 			$data['forum'] = "show";
+			$this->load->model('berita');
+			$data["results"] = $this->berita->getBerita(1,0);
 			$this->load->view('headerUser', $data);
 			$this->load->view('home', $data);
 			$this->load->view('footer');

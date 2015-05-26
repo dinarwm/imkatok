@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+<section class="small_banner">
+            <div class="center-wrap ">
+        <p class="page-banner-heading">Forum Diskusi</p>
+        
+                    <div class="breadcrumbs"><a href="#">Home</a>&rarr; <span class='current_crumb'>Forum Diskusi </span></div><!-- end .breadcrumbs -->
+            </div><!-- end .center-wrap -->
+    <div class="shadow top"></div>
+    <div class="shadow bottom"></div>
+    <div class="tt-overlay"></div>
+    </section>
+>>>>>>> 4864033d37200f3e8610de4c728ae89cc715398a
 
 <section id="content-container" class="clearfix">
     <div id="main-wrap" class="clearfix">

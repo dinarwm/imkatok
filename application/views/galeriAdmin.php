@@ -40,18 +40,14 @@
        
     <tr>
         <td><?php echo $row->id_foto;?></td>
-        <td class="center"><?php echo "<img height='120' width='120'src=". base_url()."/".$row->foto .">";?></td>
+        <td class="center"><?php echo "<img height='120' width='120'src=". base_url().$row->foto .">";?></td>
         <td class="center"><p><?php echo $row->caption;?></p></td>
         <td class="center">
-            <a class="btn btn-success" href="#">
+            <a class="btn btn-success" href="<?php echo base_url();?>admin/lihatgaleri/<?php echo $row->id_foto;?>">
                 <i class="glyphicon glyphicon-zoom-in icon-white"></i>
                 View
             </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
+            <a class="btn btn-danger" href="<?php echo base_url();?>admin/deletegaleri/<?php echo $row->id_foto;?>">
                 <i class="glyphicon glyphicon-trash icon-white"></i>
                 Delete
             </a>
@@ -60,9 +56,9 @@
     <?php
     }
     ?>
-    <a class="btn btn-info" href="#">
+    <a class="btn btn-info" href="<?php echo base_url();?>admin/tambahgaleri">
         <i class="glyphicon glyphicon-plus icon-white"></i>
-        Tambah Berita
+        Tambah Galeri
     </a>
     </tbody>
     </table>

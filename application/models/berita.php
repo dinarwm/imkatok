@@ -2,11 +2,23 @@
 
 class Berita extends CI_Model
 {
-	//admin
+	public function record_count() {
+        return $this->db->count_all('berita');
+    }
 
-	public function getBerita()
+	public function getBerita($limit, $start)
 	{ 
-		return $this->db->get('berita'); 
+		$this->db->limit($limit, $start);
+		$this->db->order_by('id_berita', 'DESC');
+        $query = $this->db->get('berita');
+ 
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
 	}
 
 	public function getBeritaID($id)
@@ -25,12 +37,15 @@ class Berita extends CI_Model
 
 		$max = $max['id_berita']+1;
 		$data = array(
-			'id_berita' => $max,
+		   'id_berita' => $max,
 		   'judul_berita' => $judul ,
 		   'isi_berita' => $content
 		);
-
 		$this->db->insert('berita', $data);
+	}
+	public function hapus($id)
+	{
+		$this->db->query("delete from berita where id_berita='$id'");
 	}
 }
 
